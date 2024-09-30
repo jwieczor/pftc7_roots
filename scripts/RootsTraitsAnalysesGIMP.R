@@ -3,31 +3,32 @@
 ## Load packages
 pkgs <- c("dplyr", "tidyverse", "stringr", "tidyr")
 lapply(pkgs, library, character.only = TRUE)
-remove(pkgs)
+remove(features)
 
 # Load Whole Roots Table 
-field.data <- read.csv("H:/My Drive/data/RootWholeTable.csv") #Check the folder path on your computer
+# field.data <- read.csv("G:/My Drive/data/RootWholeTable.csv")
+field.data <- read.csv("D:/LinaAragon/Downloads/RootWholeTable.csv")
 head(field.data)
 colnames(field.data)[1] <- "File.Name" #Rename column barcode to File.Name
 
 # Load Features Table APC with RhizoVision output for each invididual
-featuresRP <- read.csv("H:/My Drive/root_scans/RhizoVision_outputAPC/RV_on_RP_outputs/featuresRP.csv") #Check the folder path on your computer
-head(featuresRP)
+featuresGIMP <- read.csv("H:/My Drive/root_scans/RhizoVision_outputAPC/RV_on_GIMP_outputs/featuresGIMP.csv")
+head(featuresGIMP)
 
-featuresRP1 <- featuresRP %>% 
+featuresGIMP1 <- featuresGIMP %>% 
   mutate(File.Name = str_extract(File.Name, ".*(?=\\.)")) #Remove .png part of File.Name values
 
 #Join the two tables Whole Roots Table & Features Table using the File.Name column
-full.tableRP <- full_join(field.data, featuresRP1, "File.Name")
+full.tableGIMP <- full_join(field.data, featuresGIMP1, "File.Name")
 
 
 #Calculate SRL, RTD, and RDMC
-full.tableRP1 <- full.tableRP  %>% 
+full.tableGIMP1 <- full.tableGIMP  %>% 
   mutate(SRL = (Total.Root.Length.mm*0.001)/root_dry_mass) %>% 
   mutate(RTD = root_dry_mass/(Volume.mm3*0.001)) %>% 
   mutate(RDMC = (root_dry_mass*0.001)/root_wet_mass_g) %>% 
   drop_na(Region.of.Interest)
 
 ##Export table with calculated functional traits
-write.csv(full.tableRP1, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableRP1.csv")
+write.csv(full.tableGIMP1, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableGIMP.csv")
 
