@@ -1,0 +1,5 @@
+"","var","statistic","p.value","method","alternative"
+"1","SRL",3358,2.21239377891609e-05,"Wilcoxon signed rank test with continuity correction","two.sided"
+"2","RTD",806,7.55890499046367e-08,"Wilcoxon signed rank test with continuity correction","two.sided"
+"3","Branching.frequency.per.mm",4465,3.87152368320239e-17,"Wilcoxon signed rank test with continuity correction","two.sided"
+"4","Average.Diameter.mm",2339,0.689363453956243,"Wilcoxon signed rank test with continuity correction","two.sided"

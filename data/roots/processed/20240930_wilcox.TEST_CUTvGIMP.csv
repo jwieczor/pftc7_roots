@@ -1,0 +1,5 @@
+"","var","statistic","p.value","method","alternative"
+"1","SRL",104,0.985435485839844,"Wilcoxon signed rank exact test","two.sided"
+"2","RTD",33,0.00558090209960938,"Wilcoxon signed rank exact test","two.sided"
+"3","Branching.frequency.per.mm",210,1.9073486328125e-06,"Wilcoxon signed rank exact test","two.sided"
+"4","Average.Diameter.mm",209,3.814697265625e-06,"Wilcoxon signed rank exact test","two.sided"
