@@ -53,8 +53,8 @@ wilcox.TEST_CUTvRP <- CUTvRP2 %>%
   map_df(~ broom::tidy(wilcox.test(. ~ CUTvRP2$source, paired = TRUE)), .id = 'var')
 wilcox.TEST_CUTvRP
 
-write.csv(t.TEST_CUTvRP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_t.TEST_CUTvRP.csv")
-write.csv(wilcox.TEST_CUTvRP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_wilcox.TEST_CUTvRP.csv")
+write.csv(t.TEST_CUTvRP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_t.TEST_CUTvRP.csv")
+write.csv(wilcox.TEST_CUTvRP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_wilcox.TEST_CUTvRP.csv")
 
 ## CUT vs GIMP
 
@@ -100,8 +100,8 @@ wilcox.TEST_CUTvGIMP <- CUTvGIMP2 %>%
   map_df(~ broom::tidy(wilcox.test(. ~ CUTvGIMP2$source, paired = TRUE)), .id = 'var')
 wilcox.TEST_CUTvGIMP
 
-write.csv(t.TEST_CUTvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_t.TEST_CUTvGIMP.csv")
-write.csv(wilcox.TEST_CUTvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_wilcox.TEST_CUTvGIMP.csv")
+write.csv(t.TEST_CUTvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_t.TEST_CUTvGIMP.csv")
+write.csv(wilcox.TEST_CUTvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_wilcox.TEST_CUTvGIMP.csv")
 
 
 ## RP vs GIMP
@@ -148,5 +148,5 @@ wilcox.TEST_RPvGIMP <- RPvGIMP2 %>%
   map_df(~ broom::tidy(wilcox.test(. ~ RPvGIMP2$source, paired = TRUE)), .id = 'var')
 wilcox.TEST_RPvGIMP
 
-write.csv(t.TEST_RPvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_t.TEST_RPvGIMP.csv")
-write.csv(wilcox.TEST_RPvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240930_wilcox.TEST_RPvGIMP.csv")
+write.csv(t.TEST_RPvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_t.TEST_RPvGIMP.csv")
+write.csv(wilcox.TEST_RPvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/processed/20240930_wilcox.TEST_RPvGIMP.csv")
