@@ -29,7 +29,7 @@ summary(model1)
 summary(model2) # No difference between the two models
 
 # Plot ----
-ggplot(aes(x = Pixel_count, y = log(root_dens_soil)), data = gpr) +
+RD_pixel <- ggplot(aes(x = Pixel_count, y = log(root_dens_soil)), data = gpr) +
   geom_point() +
   stat_smooth(method=lm) +
   #facet_wrap(~group, nrow = 2) +
@@ -38,3 +38,4 @@ ggplot(aes(x = Pixel_count, y = log(root_dens_soil)), data = gpr) +
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())
 
+ggsave(RD_pixel, file = "plots/RD_pixell.png", width = 210, height = 100, units = "mm", dpi = 320)
