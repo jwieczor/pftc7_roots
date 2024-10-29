@@ -8,7 +8,7 @@ library(tidyverse)
 library(lme4)
 
 # Data ----
-gpr <- read.csv("data/GPR_vs_root_density_cleaned.csv") %>%
+gpr <- read.csv("data/GPR/GPR_vs_root_density_cleaned.csv") %>%
   mutate(group = as.factor(Description))
 
 glimpse(gpr)
