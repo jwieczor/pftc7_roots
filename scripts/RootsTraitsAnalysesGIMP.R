@@ -7,7 +7,7 @@ remove(features)
 
 # Load Whole Roots Table 
 # field.data <- read.csv("G:/My Drive/data/RootWholeTable.csv")
-field.data <- read.csv("D:/LinaAragon/Downloads/RootWholeTable.csv")
+field.data <- read.csv("H:/My Drive/data/RootWholeTable.csv")
 head(field.data)
 colnames(field.data)[1] <- "File.Name" #Rename column barcode to File.Name
 
@@ -26,7 +26,7 @@ full.tableGIMP <- full_join(field.data, featuresGIMP1, "File.Name")
 full.tableGIMP1 <- full.tableGIMP  %>% 
   mutate(SRL = (Total.Root.Length.mm*0.001)/root_dry_mass) %>% 
   mutate(RTD = root_dry_mass/(Volume.mm3*0.001)) %>% 
-  mutate(RDMC = (root_dry_mass*0.001)/root_wet_mass_g) %>% 
+  mutate(RDMC = (root_dry_mass*1000)/root_wet_mass_g) %>% 
   drop_na(Region.of.Interest)
 
 ##Export table with calculated functional traits

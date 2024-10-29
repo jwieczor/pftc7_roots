@@ -25,7 +25,7 @@ full.tableRP <- full_join(field.data, featuresRP1, "File.Name")
 full.tableRP1 <- full.tableRP  %>% 
   mutate(SRL = (Total.Root.Length.mm*0.001)/root_dry_mass) %>% 
   mutate(RTD = root_dry_mass/(Volume.mm3*0.001)) %>% 
-  mutate(RDMC = (root_dry_mass*0.001)/root_wet_mass_g) %>% 
+  mutate(RDMC = (root_dry_mass*1000)/root_wet_mass_g) %>% 
   drop_na(Region.of.Interest)
 
 ##Export table with calculated functional traits

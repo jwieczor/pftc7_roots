@@ -223,6 +223,7 @@ CUTvRPfiltered3 <- CUTvRPfiltered %>%
   mutate(RTD_log = log(RTD))
 
 difference_CUTvRPfiltered3 <- list()
+
 shapiro_CUTvRPfiltered3 <- list()
 
 for (i in 2:ncol(CUTvRPfiltered3)) {
