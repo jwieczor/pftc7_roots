@@ -1,8 +1,45 @@
-ft <- read.csv("H:/My Drive/data/FinalDatasets/20241016_FullTableRP1.csv")
+## Load packages
+pkgs <- c("dplyr", "tidyverse", "stringr", "tidyr")
+lapply(pkgs, library, character.only = TRUE)
+remove(pkgs)
 
-sumsta_ALL <- ft %>% 
+
+# Load Whole Roots Table 
+ft <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/Root_and_leaf_traits_RP_20241029.csv", h = T)
+
+#Reorganize Table Root Traits, Leaf Traits, and Biomass Tratis. Change names to match paper style. Calculate LT
+ftFINAL <-ft %>% 
+  select(File.Name, date, elevation, siteID, aspect, sp, plantID, grazing,
+         fire, resprout, leafID, height, root_depth, no_root_scan, root_wet_mass_g, root_dry_mass, Total.Root.Length.mm, Volume.mm3,
+         Average.Diameter.mm, Branching.frequency.per.mm, SRL, RTD, RDMC, no_tuber_scan, tuber_wet_mass_g, 
+         tuber_dry_mass, no_leaf, leaf_wet_mass_g, leaf_dry_mass, leaf_thick_1_mm, leaf_thick_2_mm, leaf_thick_3_mm,
+         leaf_area, SLA, LDMC, BGB, AGB, AGB.BGB) %>% 
+  rename(ID = File.Name) %>% 
+  rename(reproductive_height_cm = leafID) %>% 
+  rename(vegetative_height_cm = height) %>% 
+  rename(root_depth_cm = root_depth) %>% 
+  rename(root_dry_mass_g = root_dry_mass) %>% 
+  rename(total_root_length_mm = Total.Root.Length.mm) %>% 
+  rename(root_volume_mm3 = Volume.mm3) %>% 
+  rename(root_average_diameter_mm = Average.Diameter.mm) %>% 
+  rename(root_branching_intensity_mm = Branching.frequency.per.mm) %>% 
+  rename(tuber_dry_mass_g = tuber_dry_mass) %>% 
+  rename(leaf_dry_mass_g = leaf_dry_mass) %>% 
+  rename(leaf_area_mm2 = leaf_area) %>% 
+  rowwise() %>% 
+  mutate(LT = mean(c_across(starts_with("leaf_thick")), na.rm = F), .after = SLA)
+  
+write.csv(ftFINAL, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/BelowgroundTraitsDataset_20241107.csv",
+          row.names=FALSE)
+
+sumsta_ALL <- ft2 %>% 
   summarise(across(c("Average.Diameter.mm",, "Branching.frequency.per.mm", "SRL", "RTD", "RDMC"),
                    .fns = list(mean = mean, sd = sd),
                    na.rm = TRUE)) %>% 
   pivot_longer(everything(), names_sep='_', names_to=c('variable', '.value'))
 sumsta_ALL
+
+
+View(ft)
+
+
