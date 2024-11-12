@@ -43,7 +43,7 @@ RD_pixel <- ggplot(data = gpr, aes(x = Pixel_count, y = root_dens_soil)) +
   geom_ribbon(data = pred_model1, aes(x = x, ymin = conf.low, ymax = conf.high), 
                 fill = "blue", alpha = 0.2, inherit.aes = FALSE) +  # Confidence interval
   theme_bw() +
-  labs(x = "\nPixel count", y = "\nLog root-to-soil ratio (g g-1)\n") +
+  labs(x = "\nPixel count", y = "\nRoot-to-soil ratio (g g-1)\n") +
   theme(panel.grid = element_blank())
 
 # Plot with predictions for Amplitude (Model 3)
@@ -53,7 +53,7 @@ RD_amplitude <- ggplot(aes(x = Amplitude, y = root_dens_soil), data = gpr) +
   geom_ribbon(data = pred_model3, aes(x = x, ymin = conf.low, ymax = conf.high), 
               fill = "blue", alpha = 0.2, inherit.aes = FALSE) +  # Confidence interval
   theme_bw() +
-  labs(x = "\nAmplitude", y = "\nLog root-to-soil ratio (g g-1)\n") +
+  labs(x = "\nAmplitude", y = "\nRoot-to-soil ratio (g g-1)\n") +
   theme(panel.grid = element_blank())
 
 RD_px_am <- gridExtra::grid.arrange(RD_pixel, RD_amplitude, nrow = 1)
