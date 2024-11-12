@@ -14,7 +14,6 @@ gpr <- read.csv("data/GPR/GPR_vs_root_density_cleaned.csv") %>%
 glimpse(gpr)
 
 hist(log(gpr$root_dens_soil))
-hist(log(gpr$Amplitude))
 
 # Custom min-max scaling
 min_val <- min(gpr$Pixel_count)
@@ -38,7 +37,7 @@ RD_pixel <- ggplot(aes(x = Pixel_count, y = log(root_dens_soil)), data = gpr) +
   stat_smooth(method=lm) +
   #facet_wrap(~group, nrow = 2) +
   theme_bw() +
-  labs(x = "\nPixel count", y = "\nRoot density (log)\n") +
+  labs(x = "\nPixel count", y = "\nRoot-to-soil ratio (log)\n") +
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())
 
@@ -47,7 +46,7 @@ RD_amplitude <- ggplot(aes(x = Amplitude, y = log(root_dens_soil)), data = gpr) 
   stat_smooth(method=lm) +
   #facet_wrap(~group, nrow = 2) +
   theme_bw() +
-  labs(x = "\nAmplitude", y = "\nRoot density (log)\n") +
+  labs(x = "\nAmplitude", y = "\nRoot-to-soil ratio (log)\n") +
   theme(panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank())
 
