@@ -38,14 +38,13 @@ remove
 write.csv(ftFINAL, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/BelowgroundTraitsDataset_20241107.csv",
           row.names=FALSE)
 
-sumsta_ALL <- ft2 %>% 
-  summarise(across(c("Average.Diameter.mm",, "Branching.frequency.per.mm", "SRL", "RTD", "RDMC"),
+
+
+#group ftFINAL by elevation and calculate mean and sd
+sumsta_elevation <- ftFINAL %>% 
+  group_by(elevation) %>% 
+  summarise(across(c("root_average_diameter_mm","root_branching_intensity_mm", "SRL", "RTD", "RDMC"),
                    .fns = list(mean = mean, sd = sd),
-                   na.rm = TRUE)) %>% 
-  pivot_longer(everything(), names_sep='_', names_to=c('variable', '.value'))
-sumsta_ALL
-
-
-View(ft)
-
-
+                   na.rm = TRUE)) 
+  # pivot_longer(everything(), names_sep='_', names_to=c('variable', '.value'))
+sumsta_elevation
