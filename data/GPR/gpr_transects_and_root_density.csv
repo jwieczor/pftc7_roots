@@ -1,4 +1,4 @@
-date,elevation,siteID,aspect,transect,project,scan_file,position,depth,amplitude,pixel_count,sample_no,sample_depth,soil_depth,roots,rocks,soil,root_dens_soil,root_dens_all
+date,elevation,siteID,aspect,transect,project,scan_file,position,depth,amplitude,pixel_count,sample_no,sample_depth,soil_depth,roots,rocks,soil,root_to_soil_ratio,root_to_soil_and_rock_ratio
 14/12/2023,2000,1,W,1,R,ROOT_PFTC7_SITE1_(nogp)_0001,0.1,0.05,3,676,NA,NA,NA,NA,NA,NA,NA,NA
 14/12/2023,2000,1,W,1,R,ROOT_PFTC7_SITE1_(nogp)_0001,0.35,0.06,1.1,238,NA,NA,NA,NA,NA,NA,NA,NA
 14/12/2023,2000,1,W,1,R,ROOT_PFTC7_SITE1_(nogp)_0001,0.52,0.07,3.2,454,NA,NA,NA,NA,NA,NA,NA,NA
