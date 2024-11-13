@@ -20,7 +20,7 @@ featuresCUT1 <- featuresCUT %>%
 #Join the two tables Whole Roots Table & Features Table using the File.Name column
 full.tableCUT <- full_join(field.data, featuresCUT1, "File.Name")
 
-
+full.tableCUT[full.tableCUT$File.Name == "FET3274", "root_dry_mass"] <- 0.01004
 #Calculate SRL, RTD, and RDMC
 full.tableCUT1 <- full.tableCUT  %>% 
   mutate(SRL = (Total.Root.Length.mm*0.001)/root_dry_mass) %>% 
@@ -29,5 +29,5 @@ full.tableCUT1 <- full.tableCUT  %>%
   drop_na(Region.of.Interest)
 
 ##Export table with calculated functional traits
-write.csv(full.tableCUT1, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableCUT.csv")
-
+write.csv(full.tableCUT1, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/FullTableCUT_20241113.csv")
+write.csv(full.tableCUT1, "H:/My Drive/data/archive/FullTableCUT_20241113.csv")

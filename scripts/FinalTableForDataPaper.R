@@ -45,13 +45,3 @@ write.csv(ftFINAL2, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_r
 
 
 
-#group ftFINAL by elevation and calculate mean and sd
-sumsta_elevation2 <- ftFINAL %>% 
-  filter(!ID == "FFK2932") %>%
-  filter(!ID == "FBF4179") %>% 
-  group_by(elevation) %>% 
-  summarise(across(c("root_average_diameter_mm","root_branching_intensity_mm", "SRL", "RTD", "RDMC"),
-                   .fns = list(mean = mean, sd = sd),
-                   na.rm = TRUE)) 
-  # pivot_longer(everything(), names_sep='_', names_to=c('variable', '.value'))
-sumsta_elevation

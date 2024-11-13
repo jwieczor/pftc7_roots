@@ -6,15 +6,15 @@ lapply(pkgs, library, character.only = TRUE)
 remove(pkgs)
 
 ##Load tables
-full.tableCUT1<- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableCUT.csv",
+full.tableCUT1<- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/FullTableCUT_20241113.csv",
                           h = T)
-full.tableRP1 <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableRP1.csv",
+full.tableRP1 <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/FullTableRP_20241113.csv",
                           h = T)
-full.tableGIMP1 <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/20240825_FullTableGIMP.csv",
+full.tableGIMP1 <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/FullTableGIMP_20241113.csv",
                             h = T)
 
 
-## CUT avz## CUT vs RP for 94
+## CUT vs RP for 94
 ##1. Bind the CUT and RP tables
 CUTvRP <- bind_rows(list(CUT = full.tableCUT1, RP = full.tableRP1), .id = "source")
 
@@ -24,7 +24,8 @@ CUTvRP <- bind_rows(list(CUT = full.tableCUT1, RP = full.tableRP1), .id = "sourc
 ssCUTvRP <- group_by(CUTvRP, source) %>% 
   summarise(across(c("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm"),
                    list(mean = mean, sd = sd),
-                   na.rm = TRUE))
+                   na.rm = TRUE)) %>%   
+  pivot_longer(!source, names_sep='_', names_to=c('variable', '.value'))
 
 ##3. Difference between CUT and RV for each trait, shapiro test for normality of the difference and paired t-test
 
@@ -57,12 +58,12 @@ shapiro_CUTvRP3 #RTD p<0.05
 
 t.TEST_CUTvRP <- CUTvRP3 %>% 
   select("SRL", "RTD", "RTD_log", "Branching.frequency.per.mm", "BF_sqrt", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(t.test(. ~ CUTvRP3$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(t.test(Pair(.[CUTvRP3$source=="CUT"],.[CUTvRP3$source=="RP"])~1), .id = 'var'))
 t.TEST_CUTvRP
 
 wilcox.TEST_CUTvRP <- CUTvRP3 %>% 
   select("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(wilcox.test(. ~ CUTvRP3$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(wilcox.test(Pair(.[CUTvRP3$source=="CUT"],.[CUTvRP3$source=="RP"])~1), .id = 'var'))
 wilcox.TEST_CUTvRP
 
 write.csv(t.TEST_CUTvRP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/20240930_t.TEST_CUTvRP.csv")
@@ -97,7 +98,7 @@ for (i in 2:ncol(CUTvGIMP2)) {
   difference_CUTvGIMP[[i]] <- with(CUTvGIMP2, CUTvGIMP2[,i][source == "CUT"] - CUTvGIMP2[,i][source == "RP"])
   shapiro_CUTvGIMP[[i]] <- shapiro.test(difference_CUTvGIMP[[i]])
 }
-shapiro_CUTvGIMP #SRL_log: 0.049
+shapiro_CUTvGIMP # SRL < 0.05
 
 CUTvGIMP3 <- CUTvGIMP %>% 
   select("source", "SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>% 
@@ -114,12 +115,12 @@ shapiro_CUTvGIMP3 #SRL_log: 0.049
 
 t.TEST_CUTvGIMP <- CUTvGIMP3 %>% 
   select("SRL", "SRL_log", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(t.test(. ~ CUTvGIMP2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(t.test(Pair(.[CUTvGIMP3$source=="CUT"],.[CUTvGIMP3$source=="RP"])~1), .id = 'var'))
 t.TEST_CUTvGIMP
 
 wilcox.TEST_CUTvGIMP <- CUTvGIMP3 %>% 
   select("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(wilcox.test(. ~ CUTvGIMP2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(wilcox.test(Pair(.[CUTvGIMP3$source=="CUT"],.[CUTvGIMP3$source=="RP"])~1), .id = 'var'))
 wilcox.TEST_CUTvGIMP
 
 write.csv(t.TEST_CUTvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/20240930_t.TEST_CUTvGIMP.csv")
@@ -155,7 +156,7 @@ for (i in 2:ncol(RPvGIMP2)) {
   difference_RPvGIMP[[i]] <- with(RPvGIMP2, RPvGIMP2[,i][source == "CUT"] - RPvGIMP2[,i][source == "RP"])
   shapiro_RPvGIMP[[i]] <- shapiro.test(difference_RPvGIMP[[i]])
 }
-shapiro_RPvGIMP #SRL_log and RTD_log non normal
+shapiro_RPvGIMP #SRL and RTD p<0.05
 
 
 RPvGIMP3 <- RPvGIMP %>% 
@@ -173,17 +174,17 @@ for (i in 2:ncol(RPvGIMP3)) {
   difference_RPvGIMP3[[i]] <- with(RPvGIMP3, RPvGIMP3[,i][source == "CUT"] - RPvGIMP3[,i][source == "RP"])
   shapiro_RPvGIMP3[[i]] <- shapiro.test(difference_RPvGIMP3[[i]])
 }
-shapiro_RPvGIMP3 #SRL_log and RTD_log non normal
+shapiro_RPvGIMP3 #SRL_log, SRL_sqrt, RTD_log, and RTD_sqrt non normal
 
 
 t.TEST_RPvGIMP <- RPvGIMP2 %>% 
   select("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(t.test(. ~ RPvGIMP2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(t.test(Pair(.[RPvGIMP3$source=="CUT"],.[RPvGIMP3$source=="RP"])~1), .id = 'var'))
 t.TEST_RPvGIMP
 
 wilcox.TEST_RPvGIMP <- RPvGIMP2 %>% 
   select("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(wilcox.test(. ~ RPvGIMP2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(wilcox.test(Pair(.[RPvGIMP3$source=="CUT"],.[RPvGIMP3$source=="RP"])~1), .id = 'var'))
 wilcox.TEST_RPvGIMP
 
 write.csv(t.TEST_RPvGIMP, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/20240930_t.TEST_RPvGIMP.csv")
@@ -230,16 +231,16 @@ for (i in 2:ncol(CUTvRPfiltered3)) {
   difference_CUTvRPfiltered3[[i]] <- with(CUTvRPfiltered3, CUTvRPfiltered3[,i][source == "CUT"] - CUTvRPfiltered3[,i][source == "RP"])
   shapiro_CUTvRPfiltered3[[i]] <- shapiro.test(difference_CUTvRPfiltered3[[i]])
 }
-shapiro_CUTvRPfiltered3 #SRL_log: 0.035, BF_log: 0.09
+shapiro_CUTvRPfiltered3 #All good
 
 t.TEST_CUTvRPfiltered <- CUTvRPfiltered3 %>% 
   select("SRL", "RTD", "RTD_log", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(t.test(. ~ CUTvRPfiltered2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(t.test(Pair(.[CUTvRPfiltered3$source=="CUT"],.[CUTvRPfiltered3$source=="RP"])~1), .id = 'var'))
 t.TEST_CUTvRPfiltered
 
 wilcox.TEST_CUTvRPfiltered <- CUTvRPfiltered3 %>% 
   select("SRL", "RTD", "Branching.frequency.per.mm", "Average.Diameter.mm") %>%
-  map_df(~ broom::tidy(wilcox.test(. ~ CUTvRPfiltered2$source, paired = TRUE)), .id = 'var')
+  map_df(~ broom::tidy(wilcox.test(Pair(.[CUTvRPfiltered3$source=="CUT"],.[CUTvRPfiltered3$source=="RP"])~1), .id = 'var'))
 wilcox.TEST_CUTvRPfiltered
 
 write.csv(t.TEST_CUTvRPfiltered, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/results/roots/20240930_t.TEST_CUTvRPfiltered.csv")
