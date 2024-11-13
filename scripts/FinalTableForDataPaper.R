@@ -42,6 +42,6 @@ ftFINAL2<- ftFINAL %>%
 
 write.csv(ftFINAL2, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/BelowgroundTraitsDataset.csv",
           row.names=FALSE)
-
+write.csv(ftFINAL2, "H:/My Drive/data/FinalDatasets/BelowgroundTraitsDataset.csv")
 
 
