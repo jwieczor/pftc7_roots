@@ -1,4 +1,4 @@
-# GPR
+# GPR test
 # Analysis on Pixel count and root density
 # by JDW
 # created 18 Oct 2024
