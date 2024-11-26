@@ -1,6 +1,7 @@
+library(tidyverse)
 
 #Load table 
-fT <- read.csv("D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/BelowgroundTraitsDataset.csv",
+fT <- read.csv("data/roots/processed/BelowgroundTraitsDataset.csv",
                h=T)
 
 #group ftFINAL by elevation and calculate mean and sd
