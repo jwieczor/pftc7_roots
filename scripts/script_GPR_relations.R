@@ -57,6 +57,6 @@ RD_amplitude <- ggplot(aes(x = Amplitude, y = root_dens_soil), data = gpr) +
   labs(x = "\nAmplitude", y = "\nRoot-to-soil ratio (g g-1)\n") +
   theme(panel.grid = element_blank())
 
-RD_pixel + RD_amplitude & plot_annotation(tag_levels = 'a', tag_suffix = ')')
+RD_px_am <- RD_pixel + RD_amplitude & plot_annotation(tag_levels = 'a', tag_suffix = ')')
 
-ggsave(RD_px_am, file = "plots/RD_px_am.png", width = 210, height = 100, units = "mm", dpi = 320)
+ggsave(RD_px_am, file = "results/gpr/RD_px_am.png", width = 210, height = 100, units = "mm", dpi = 320)
