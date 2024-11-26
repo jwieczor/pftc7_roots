@@ -25,9 +25,9 @@ soil_sum <- soil_chem %>%
 
 # correlation matrix of soils across sites
 corrplot.mixed(cor(soil_sum[,2:10]))
-png('results/soil/corrplot.png',
-    width = 7.04, height = 3.94,
-    units = 'in', res = 320)
+# png('results/soil/corrplot.png',
+#     width = 7.04, height = 3.94,
+#     units = 'in', res = 320)
 corrplot(cor(soil_sum[,2:10]), 
          method = 'shade',
          col = '',
@@ -35,7 +35,7 @@ corrplot(cor(soil_sum[,2:10]),
          diag = F,
          order = 'AOE',
          tl.col = 'black')
-dev.off()
+# dev.off()
 
 # line plots for each soil variable
 ggplot(soil_sum, aes(x = siteID, y = Total_P_mean)) +
