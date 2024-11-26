@@ -24,11 +24,15 @@ IDs <- all_data %>%
 
 compare <- all_data %>% filter(ID %in% IDs$ID)
 
+###
+compare %>%
+  select(ID, source, Median.Diameter.mm) -> test
+
 ### 2. Format data ----
 
 # Select just trait variables by source
-compare <- compare %>%
-        select(source, 
+compare_plot_data <- compare %>%
+        select(ID, source, 
          total_root_length_mm = Total.Root.Length.mm,
          median_diameter_mm = Median.Diameter.mm,
          root_volume_mm3 = Volume.mm3,
@@ -36,7 +40,7 @@ compare <- compare %>%
 
 ### 3. Density plots per trait by method ----
 
-ggplot(compare, aes(x = total_root_length_mm, color = source, fill = source)) +
+ggplot(compare_plot_data, aes(x = total_root_length_mm, color = source, fill = source)) +
   geom_density(alpha = 0.5) +
   theme_bw() +
   labs(x = "total_root_length_mm",
@@ -46,8 +50,8 @@ ggplot(compare, aes(x = total_root_length_mm, color = source, fill = source)) +
   scale_color_viridis_d() +
   theme(legend.title = element_blank()) +
 
-ggplot(compare, aes(x = median_diameter_mm, color = source, fill = source)) +
-  geom_density(alpha = 0.5) +
+ggplot(compare_plot_data, aes(x = median_diameter_mm, color = source, fill = source)) +
+  geom_density(alpha = 0.5, adjust = 5) +
   theme_bw() +
   labs(x = "median_diameter_mm",
        y = NULL,
@@ -56,7 +60,7 @@ ggplot(compare, aes(x = median_diameter_mm, color = source, fill = source)) +
   scale_color_viridis_d() +
     theme(legend.title = element_blank()) +
 
-ggplot(compare, aes(x = root_volume_mm3, color = source, fill = source)) +
+ggplot(compare_plot_data, aes(x = root_volume_mm3, color = source, fill = source)) +
   geom_density(alpha = 0.5) +
   theme_bw() +
   labs(x = "root_volume_mm3",
@@ -66,10 +70,10 @@ ggplot(compare, aes(x = root_volume_mm3, color = source, fill = source)) +
   scale_color_viridis_d() +
   theme(legend.title = element_blank()) +
 
-ggplot(compare, aes(x = BI, color = source, fill = source)) +
+ggplot(compare_plot_data, aes(x = BI, color = source, fill = source)) +
   geom_density(alpha = 0.5) +
   theme_bw() +
-  labs(x = "BI",
+  labs(x = "BI_mm-1",
        y = NULL,
        color = "source") +
   scale_fill_viridis_d() +
@@ -78,5 +82,4 @@ ggplot(compare, aes(x = BI, color = source, fill = source)) +
   plot_layout(guides = 'collect') &
   plot_annotation(tag_levels = 'a', tag_suffix = ')')
 
-ggsave('results/MethodsComparison/plotTraitsMethod_MeasuredVars.png', height = 7, width = 7, dpi = 320)
-
+ggsave('results/MethodsComparison/plotTraitsMethod_MeasuredVars.png', height = 9.38, width = 11.44, dpi = 320)
