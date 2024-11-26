@@ -14,9 +14,10 @@ library(viridis)
 
 setwd('H:/My Drive')
 
-rp <- read.csv('data/20240825_FullTableRP1.csv')
-cut <- read.csv('data/20240825_FullTableCUT.csv')
-gimp <- read.csv('data/20240825_FullTableGIMP1.csv')
+rp <- read.csv('data/roots/processed/20240825_FullTableRP1.csv')
+cut <- read.csv('data/roots/processed/20240825_FullTableCUT.csv')
+# gimp <- read.csv('data/roots/processed/20240825_FullTableGIMP1.csv')
+gimp <- read.csv('data/roots/processed/20240825_FullTableGIMP.csv')
 
 
 ### 2. Format data ----
