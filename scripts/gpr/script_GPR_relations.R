@@ -30,7 +30,6 @@ model3 <- lm(log(root_dens_soil) ~ Amplitude, data = gpr)
 
 summary(model1)
 summary(model2) # No difference between the two models
-
 summary(model3)
 
 # Predictions ----
@@ -54,9 +53,39 @@ RD_amplitude <- ggplot(aes(x = Amplitude, y = root_dens_soil), data = gpr) +
   geom_ribbon(data = pred_model3, aes(x = x, ymin = conf.low, ymax = conf.high), 
               fill = "blue", alpha = 0.2, inherit.aes = FALSE) +  # Confidence interval
   theme_bw() +
-  labs(x = "\nAmplitude", y = "\nRoot-to-soil ratio (g g-1)\n") +
+  labs(x = "\nAmplitude (dB)", y = "\nRoot-to-soil ratio (g g-1)\n") +
   theme(panel.grid = element_blank())
 
 RD_px_am <- RD_pixel + RD_amplitude & plot_annotation(tag_levels = 'a', tag_suffix = ')')
 
 ggsave(RD_px_am, file = "results/gpr/RD_px_am.png", width = 210, height = 100, units = "mm", dpi = 320)
+
+####
+gpr$Elevation <- factor(gpr$Elevation)
+gpr$Elevation <- paste0(gpr$Elevation, " m")
+
+ggplot(data = gpr, aes(x = root_dens_soil, fill = Elevation, colour = Elevation)) +
+  geom_density(alpha = 0.5) +
+  labs(x = "Root-to-soil ratio (g g-1)",
+       y = NULL) +
+  scale_fill_viridis_d() +
+  scale_color_viridis_d() +
+  theme_bw() +
+
+ggplot(data = gpr, aes(x = Amplitude, fill = Elevation, colour = Elevation)) +
+  geom_density(alpha = 0.5) +
+  labs(x = "Amplitude",
+       y = NULL) +
+  scale_fill_viridis_d() +
+  scale_color_viridis_d() +
+  theme_bw() +
+
+ggplot(data = gpr, aes(x = Pixel_count, fill = Elevation, colour = Elevation)) +
+  geom_density(alpha = 0.5) +
+  labs(x = "Pixel intensity",
+       y = NULL) +
+  scale_fill_viridis_d() +
+  scale_color_viridis_d() +
+  theme_bw() +
+  plot_layout(nrow = 1, guides = 'collect') &
+  plot_annotation(tag_levels = 'a', tag_suffix = ')')
