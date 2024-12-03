@@ -30,7 +30,7 @@ model2 <- lm(log(root_to_soil_ratio) ~ pixel_count_scaled, data = gpr)
 model3 <- lm(log(root_to_soil_ratio) ~ amplitude, data = gpr)
 
 summary(model1)
-summary(model2) # No difference between the two models
+summary(model2) # No difference between model1 and model2
 summary(model3)
 
 # Predictions ----
@@ -61,7 +61,8 @@ RD_px_am <- RD_pixel + RD_amplitude & plot_annotation(tag_levels = 'a', tag_suff
 
 ggsave(RD_px_am, file = "results/gpr/RD_px_am.png", width = 210, height = 100, units = "mm", dpi = 320)
 
-####
+
+#### ----
 gpr$elevation <- factor(gpr$elevation)
 gpr$elevation <- paste0(gpr$elevation, " m")
 
