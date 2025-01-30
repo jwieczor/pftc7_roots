@@ -1,4 +1,4 @@
-date,elevation,siteID,aspect,scan_file,type,position_m,depth_m,amplitude_dB,pixel_count
+date,elevation_m_asl,site_id,aspect,scan_file,type,position_m,depth_m,amplitude_dB,pixel_count
 14/12/2023,2000,1,W,ROOT_PFTC7_SITE1_(nogp)_0003, DETECT,0.03,0.11,1.1,245
 14/12/2023,2000,1,W,ROOT_PFTC7_SITE1_(nogp)_0003, DETECT,0.24,0.16,1.8,460
 14/12/2023,2000,1,W,ROOT_PFTC7_SITE1_(nogp)_0003, DETECT,0.3,0.05,8.7,2570
