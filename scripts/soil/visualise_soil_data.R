@@ -100,3 +100,4 @@ ggplot(soil_sum,aes(x = elevation_m_asl, y = silt_perc_mean)) +
 # save
 ggsave('results/soil/soil_vars_by_elev.png',
        width = 8, height = 4, dpi = 320)
+
