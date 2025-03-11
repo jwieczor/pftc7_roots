@@ -10,5 +10,4 @@ fullTableTV2 <- fulltableTV %>%
   relocate(RD, BI, .before = SRL)
 
 
-write.csv(fullTableTV2, "D:/OneDrive - University of Miami/UMiami/PFTC7/DATA/pftc7_roots/data/roots/processed/TechnicalValidationRootScannersData.csv")
-write.csv(fullTableTV2, "H:/My Drive/data/FinalDatasets/TechnicalValidationRootScannersData.csv")
+write.csv(fullTableTV2, "data/roots/processed/TechnicalValidationRootScannersData.csv")
