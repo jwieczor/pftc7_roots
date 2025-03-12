@@ -53,4 +53,4 @@ rsconnect/
 *.DS_Store
 
 # Any archive files
-archive/
+**/archive/
