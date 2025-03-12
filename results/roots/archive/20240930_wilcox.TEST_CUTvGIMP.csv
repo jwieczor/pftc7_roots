@@ -1,5 +1,0 @@
-"","statistic","p.value","method","alternative"
-"1",104,0.985435485839844,"Wilcoxon signed rank exact test","two.sided"
-"2",33,0.00558090209960938,"Wilcoxon signed rank exact test","two.sided"
-"3",210,1.9073486328125e-06,"Wilcoxon signed rank exact test","two.sided"
-"4",209,3.814697265625e-06,"Wilcoxon signed rank exact test","two.sided"
