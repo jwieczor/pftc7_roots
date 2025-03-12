@@ -12,6 +12,8 @@ Each `data/` folder contains separate folders for the `raw/` and `clean/`. The R
 
 ## Data dictionaries
 
+Each of the clean datasets has a corresponding data dictionary to provide information about each variable, including: description, variable type, the range or levels and how it was measured.
+
 **Table 1. Data dictionary for the belowground traits.**
 
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                   |                                                                                                   |                                                                   |                  |
