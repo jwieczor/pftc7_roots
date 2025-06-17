@@ -12,7 +12,7 @@ library(ggpubr)
 library(patchwork)
 
 ### load clean transect and root biomass data
-gpr_clean <- read.csv("data/GPR/clean/clean_gpr_transect_root_biomass_data.csv") 
+gpr_clean <- read_csv('06_root_biomass/PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv') 
 
 ### 2. Format and glimpse data ----
 # keep only detections with corresponding root biomass data
@@ -63,7 +63,7 @@ gpr_vars_elev <- ggarrange(biomass + rremove("y.text"), amplitude + rremove("y.t
 gpr_vars_elev
 
 # Save figure
-# ggsave("gpr_vars_elev.png", gpr_vars_elev, path= "results/gpr", height = 1.5, width = 7 , bg= "white", units= "in")
+ggsave("gpr_vars_elev.png", gpr_vars_elev, path= "results/06_root_biomass", height = 1.5, width = 7 , bg= "white", units= "in")
 
 ### 4. Run regression models ----
 # Custom min-max scaling ----
@@ -106,4 +106,4 @@ ggplot(aes(x = amplitude_dB, y = root_to_soil_ratio), data = gpr) +
   theme(panel.grid = element_blank())
 
 # Save figure
-ggsave("gpr_regression_models.png", path= "results/gpr", height = 3, width = 7 , bg= "white", units= "in")
+ggsave("gpr_regression_models.png", path= "results/06_root_biomass", height = 3, width = 7 , bg= "white", units= "in")

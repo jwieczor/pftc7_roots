@@ -76,4 +76,4 @@ root_traits_elev <- ggarrange(rd + rremove("y.text"), bi + rremove("y.text"), sr
 root_traits_elev
 
 # 4. Save figure
-ggsave("root_traits_elev.png", root_traits_elev, path= "results/roots/", height = 3.333, width = 7 , bg= "white", units= "in")
+ggsave("root_traits_elev.png", root_traits_elev, path= "results/05_root_traits/", height = 3.333, width = 7 , bg= "white", units= "in")

@@ -6,16 +6,16 @@ library(osfr)
 
 ### retrieve raw data files from the OSF project page
 osf_retrieve_node('hk2cy') %>%
-  osf_ls_files(path = 'raw_data/raw_gpr_data/') %>%
-  filter(name != 'dzt.zip') %>% # don't download the raw dzt files
-  osf_download(path = 'data/gpr/raw/', conflicts = 'overwrite')
+  osf_ls_files(path = 'raw_data/06_raw_root_biomass/') %>%
+  filter(!str_ends(name, '.zip')) %>% # don't download the raw dzt files
+  osf_download(path = 'raw_data/06_raw_root_biomass/', conflicts = 'overwrite')
 
 ### load in scan file name changes
-name_changes <- read_csv('data/gpr/raw/scan_file_name_changes.csv')
+name_changes <- read_csv('raw_data/06_raw_root_biomass/scan_file_name_changes.csv')
 
 ### 2. Format raw and save clean PLOT data ----
 ### load in gpr plot data
-plot_dir <- list.files('data/gpr/raw/plots/', full.names = T)
+plot_dir <- list.files('raw_data/06_raw_root_biomass/plots/', full.names = T)
 plots <- lapply(plot_dir, read_csv) %>% bind_rows()
 
 ### format
@@ -46,11 +46,13 @@ clean_plots <- plots %>%
   mutate(across(depth_m:pixel_count, ~gsub('-', NA, .)))
 
 ### save clean plot data
-write_csv(clean_plots, 'data/gpr/clean/clean_gpr_plot_data.csv')
+write_csv(clean_plots, '06_root_biomass/PFTC7_SA_clean_gpr_plot_2023.csv')
 
 ### 3. Format raw and save clean TRANSECT and ROOT BIOMASS data ----
 ### load in root biomass data
-root_biomass <- read_csv('data/gpr/raw/raw_root_biomass.csv') %>%
+list.files('raw_data/06_root_biomass')
+
+root_biomass <- read_csv('raw_data/06_raw_root_biomass/PFTC7_SA_raw_root_biomass_2023.csv') %>%
   dplyr::select(site_id, transect, position_m:dry_soil_mass_g) %>%
   mutate(site_id = as.character(site_id),
          transect = as.character(transect),
@@ -58,7 +60,7 @@ root_biomass <- read_csv('data/gpr/raw/raw_root_biomass.csv') %>%
          root_to_soil_and_stone_ratio = dry_root_mass_g/(dry_soil_mass_g + stone_mass_g))
 
 ### load in gpr transect data
-transects_dir <- list.files('data/gpr/raw/transects/', full.names = T)
+transects_dir <- list.files('raw_data/06_raw_root_biomass/transects/', full.names = T)
 transects <- lapply(transects_dir, function(x) read_csv(x, col_types = cols(.default = 'd', `SCAN FILE` = 'c', TYPE = 'c'))) %>% bind_rows()
 
 ### format
@@ -90,4 +92,4 @@ joined_transects <- clean_transects %>%
   left_join(root_biomass, by = c('site_id', 'transect', 'position_m'))
 
 ### save clean transect and root biomass data
-write_csv(joined_transects, 'data/gpr/clean/clean_gpr_transect_root_biomass_data.csv')
+write_csv(joined_transects, '06_root_biomass/PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv')

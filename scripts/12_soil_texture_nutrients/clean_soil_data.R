@@ -6,10 +6,10 @@ library(osfr)
 
 ### retrieve raw data file from the OSF project page
 osf_retrieve_file('https://osf.io/yb9t2') %>%
-  osf_download(path = 'data/soil/raw')
+  osf_download(path = 'raw_data/12_raw_soil_texture_nutrients/')
 
 ### load in soil data
-soil <- read_csv('data/soil/raw/raw_soil.csv')
+soil <- read_csv('raw_data/12_raw_soil_texture_nutrients/PFTC7_SA_raw_soil_2023.csv')
 
 ### 2. Clean data
 ### filter out extra record
@@ -40,4 +40,4 @@ soil_format <- soil_filt %>%
   pivot_longer(cols = tc_perc:silt_perc, names_to = 'variable', values_to = 'value')
 
 ### 4. Save clean data
-write_csv(soil_format, 'data/soil/clean/clean_soil.csv')
+write_csv(soil_format, '12_soil_texture_nutrients/PFTC7_SA_clean_soil_2023.csv')

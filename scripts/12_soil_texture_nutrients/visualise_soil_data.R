@@ -7,7 +7,7 @@ library(corrplot)
 library(patchwork)
 
 # load in soil data
-soil <- read_csv('data/soil/clean/clean_soil.csv')
+soil <- read_csv('12_soil_structure_nutrients/PFTC7_SA_clean_soil_2023.csv')
 
 ### 2. Format and glimpse data ----
 # pivot wider
@@ -26,16 +26,16 @@ soil_sum <- soil_wide %>%
 
 ### 3. Correlation plots for each soil variable ----
 # correlation matrix of soils across sites
-# png('results/soil/soil_corrplot.png',
-#     width = 7, height = 4.5,
-#     units = 'in', res = 320)
+png('results/12_soil_structure_nutrients/soil_corrplot.png',
+    width = 7, height = 4.5,
+    units = 'in', res = 320)
 corrplot(cor(soil_sum[,2:9]), 
          method = 'shade',
          type = 'lower',
          diag = F,
          order = 'AOE',
          tl.col = 'black')
-# dev.off()
+dev.off()
 
 ### 4. Line plots for each soil variable across elevation ----
 ggplot(soil_sum, aes(x = elevation_m_asl, y = tp_mg_kg_mean)) +
@@ -98,6 +98,6 @@ ggplot(soil_sum,aes(x = elevation_m_asl, y = silt_perc_mean)) +
   plot_layout(nrow = 2, ncol = 4)
 
 # save
-ggsave('results/soil/soil_vars_by_elev.png',
+ggsave('results/12_soil_structure_nutrients/soil_vars_by_elev.png',
        width = 8, height = 4, dpi = 320)
 
