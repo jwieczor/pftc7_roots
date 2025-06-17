@@ -1,6 +1,6 @@
 # Technical validation comparisons between raw, rootpainter and GIMP scans
 # created 26/11/2024 by Lina
-# modified 12/03/2025 by Joe
+# modified 17/06/2025 by Joe
 
 ### 1. Set up ----
 library(tidyverse)
@@ -8,17 +8,17 @@ library(rcompanion)
 
 ### 2. Load data ----
 #### load in root data
-all_scan_methods <- read_csv('data/roots/clean/clean_scan_methods_comparison_data.csv')
+all_scan_methods <- read_csv('05_root_traits/PFCT7_SA_clean_scan_methods_comparison_2023.csv')
 head(all_scan_methods)
 
 #### select key scan traits that are direct measurements from the root scans in RhizoVision
 focal_scan_traits <- all_scan_methods %>% 
-  dplyr::select("source", 'id', "total_root_length_mm", "total_root_volume_mm3", "BI", "RD")
+  dplyr::select("source", 'id', "total_root_length_mm", "total_root_volume_mm3", "bi_branches_mm", "rd_mm")
 
 #### summary of all methods by key scan traits
 focal_scan_traits %>% 
   group_by(source) %>% 
-  summarise(across(c("total_root_length_mm", "total_root_volume_mm3", "BI", "RD"),
+  summarise(across(c("total_root_length_mm", "total_root_volume_mm3", "bi_branches_mm", "rd_mm"),
                    .fns = list(mean = mean, sd = sd),
                    .names = "{.col}-{.fn}",
                    na.rm = TRUE)) %>%   
@@ -45,7 +45,7 @@ shapiro_raw_v_rp
 raw_v_rp_trans <- raw_v_rp %>% 
   mutate(trl_transform = transformTukey(total_root_length_mm, plotit = F),
          vol_transform = transformTukey(total_root_volume_mm3, plotit = F),
-         BI_transform = sqrt(BI)) %>%
+         bi_transform = sqrt(bi_branches_mm)) %>%
   as.data.frame()
 
 #### test for normality on new variables
@@ -66,7 +66,7 @@ t_test_raw_v_rp <- raw_v_rp_trans %>%
 t_test_raw_v_rp$trait <- names(raw_v_rp_trans)[-1]
 t_test_raw_v_rp <- t_test_raw_v_rp %>% dplyr::select(trait, estimate:alternative)
 t_test_raw_v_rp %>%
-  filter(trait %in% c('RD', 'trl_transform', 'vol_transform', 'BI_transform'))
+  filter(trait %in% c('rd_mm', 'trl_transform', 'vol_transform', 'bi_transform'))
 
 #### check wilcox test
 wilcox_test_raw_v_rp <- raw_v_rp_trans %>% 
@@ -75,7 +75,7 @@ wilcox_test_raw_v_rp <- raw_v_rp_trans %>%
 wilcox_test_raw_v_rp$trait <- names(raw_v_rp_trans)[-1]
 wilcox_test_raw_v_rp <- wilcox_test_raw_v_rp %>% dplyr::select(trait, statistic:alternative)
 wilcox_test_raw_v_rp %>%
-  filter(trait %in% c('RD', 'trl_transform', 'vol_transform', 'BI_transform'))
+  filter(trait %in% c('rd_mm', 'trl_transform', 'vol_transform', 'bi_transform'))
 
 #### calculate the % change in traits between different methods
 raw_v_rp_trans %>%
@@ -130,7 +130,7 @@ t_test_raw_v_gimp <- raw_v_gimp_trans %>%
 t_test_raw_v_gimp$trait <- names(raw_v_gimp_trans)[-1]
 t_test_raw_v_gimp <- t_test_raw_v_gimp %>% dplyr::select(trait, estimate:alternative)
 t_test_raw_v_gimp %>%
-  filter(trait %in% c('total_root_length_mm', 'RD', 'BI', 'vol_transform'))
+  filter(trait %in% c('total_root_length_mm', 'rd_mm', 'bi_branches_mm', 'vol_transform'))
 
 #### check wilcox test
 wilcox_test_raw_v_gimp <- raw_v_gimp_trans %>% 
@@ -139,7 +139,7 @@ wilcox_test_raw_v_gimp <- raw_v_gimp_trans %>%
 wilcox_test_raw_v_gimp$trait <- names(raw_v_gimp_trans)[-1]
 wilcox_test_raw_v_gimp <- wilcox_test_raw_v_gimp %>% dplyr::select(trait, statistic:alternative)
 wilcox_test_raw_v_gimp %>%
-  filter(trait %in% c('total_root_length_mm', 'RD', 'BI', 'vol_transform'))
+  filter(trait %in% c('total_root_length_mm', 'rd_mm', 'bi_branches_mm', 'vol_transform'))
 
 #### calculate the % change in traits between different methods
 raw_v_gimp_trans %>%
@@ -193,7 +193,7 @@ t_test_rp_v_gimp <- rp_v_gimp_trans %>%
 t_test_rp_v_gimp$trait <- names(rp_v_gimp_trans)[-1]
 t_test_rp_v_gimp <- t_test_rp_v_gimp %>% dplyr::select(trait, estimate:alternative)
 t_test_rp_v_gimp %>%
-  filter(trait %in% c('total_root_volume_mm3', 'RD', 'BI', 'trl_transform'))
+  filter(trait %in% c('total_root_volume_mm3', 'rd_mm', 'bi_branches_mm', 'trl_transform'))
 
 #### check wilcox test
 wilcox_test_rp_v_gimp <- rp_v_gimp_trans %>% 
@@ -202,7 +202,7 @@ wilcox_test_rp_v_gimp <- rp_v_gimp_trans %>%
 wilcox_test_rp_v_gimp$trait <- names(rp_v_gimp_trans)[-1]
 wilcox_test_rp_v_gimp <- wilcox_test_rp_v_gimp %>% dplyr::select(trait, statistic:alternative)
 wilcox_test_rp_v_gimp %>%
-  filter(trait %in% c('total_root_volume_mm3', 'RD', 'BI', 'trl_transform'))
+  filter(trait %in% c('total_root_volume_mm3', 'rd_mm', 'bi_branches_mm', 'trl_transform'))
 
 #### calculate the % change in traits between different methods
 rp_v_gimp_trans %>%

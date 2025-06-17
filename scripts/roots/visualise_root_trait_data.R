@@ -11,11 +11,8 @@ library(RColorBrewer)
 
 ### 2. Format data ----
 # Load in root trait data
-root_traits <- read_csv('data/roots/clean/clean_root_trait_data.csv') %>% 
+root_traits <- read_csv('05_root_traits/PFCT7_SA_clean_root_traits_2023.csv') %>% 
   pivot_wider(names_from = traits, values_from = value) %>%
-  mutate(elevation_m_asl = as.factor(elevation_m_asl))
-
-root_traits <- read_csv('data/roots/archive/processed/BelowgroundTraitsDatasetWide.csv') %>%
   mutate(elevation_m_asl = as.factor(elevation_m_asl))
 
 # vis parameters
@@ -25,7 +22,7 @@ cols2<- c("#6F00A8", "#A72197",  "#DD5E66", "#EF7F4F") # 2000m: #FDCB26
 lwd = 0.5
 
 ### 3. Density plots per trait by elevation (RP scans) ----
-rd <- ggplot(root_traits, aes(x = RD, y = elevation_m_asl, fill = elevation_m_asl)) +
+rd <- ggplot(root_traits, aes(x = rd_mm, y = elevation_m_asl, fill = elevation_m_asl)) +
   geom_density_ridges(alpha= alp3, scale = scl, linewidth=lwd)+
   scale_fill_manual(values = cols2, breaks = c(2800,  2600, 2400, 2200))+
   scale_y_discrete(expand = expansion(mult = c(0.1, 3.1)))+
@@ -34,7 +31,7 @@ rd <- ggplot(root_traits, aes(x = RD, y = elevation_m_asl, fill = elevation_m_as
   theme(panel.grid = element_blank(),
         axis.title.y = element_blank())
 
-bi <- ggplot(root_traits, aes(x = BI, y = elevation_m_asl, fill = elevation_m_asl)) +
+bi <- ggplot(root_traits, aes(x = bi_branches_mm, y = elevation_m_asl, fill = elevation_m_asl)) +
   geom_density_ridges(alpha= alp3, scale = scl, linewidth=lwd)+
   scale_fill_manual(values = cols2, breaks = c(2800,  2600, 2400, 2200))+
   scale_y_discrete(expand = expansion(mult = c(0.1, 3.4)))+
@@ -43,7 +40,7 @@ bi <- ggplot(root_traits, aes(x = BI, y = elevation_m_asl, fill = elevation_m_as
   theme(panel.grid = element_blank(),
         axis.title.y = element_blank())
 
-srl <- ggplot(root_traits, aes(x = SRL, y = elevation_m_asl, fill = elevation_m_asl)) +
+srl <- ggplot(root_traits, aes(x = srl_m_g, y = elevation_m_asl, fill = elevation_m_asl)) +
   geom_density_ridges(alpha= alp3, scale = scl, linewidth=lwd)+
   scale_fill_manual(values = cols2, breaks = c(2800,  2600, 2400, 2200))+
   scale_y_discrete(expand = expansion(mult = c(0.1, 2.6)))+
@@ -54,7 +51,7 @@ srl <- ggplot(root_traits, aes(x = SRL, y = elevation_m_asl, fill = elevation_m_
 
 rtd <- root_traits %>%
   filter(id != 'FEK5954') %>% # Filter out high RTD values to remove outliers; remove 1 values
-ggplot(aes(x = RTD, y = elevation_m_asl, fill = elevation_m_asl)) +
+ggplot(aes(x = rtd_g_cm3, y = elevation_m_asl, fill = elevation_m_asl)) +
   geom_density_ridges(alpha= alp3, scale = scl, linewidth=lwd)+
   scale_fill_manual(values = cols2, breaks = c(2800,  2600, 2400, 2200))+
   scale_y_discrete(expand = expansion(mult = c(0.1, 3.1)))+
@@ -64,7 +61,7 @@ ggplot(aes(x = RTD, y = elevation_m_asl, fill = elevation_m_asl)) +
         axis.title.y = element_blank())
 
 rdmc <- root_traits %>%
-ggplot(aes(x = RDMC, y = elevation_m_asl, fill = elevation_m_asl)) +
+ggplot(aes(x = rdmc_mg_g, y = elevation_m_asl, fill = elevation_m_asl)) +
   geom_density_ridges(alpha= alp3, scale = scl, linewidth=lwd)+
   scale_fill_manual(values = cols2, breaks = c(2800,  2600, 2400, 2200))+
   scale_y_discrete(expand = expansion(mult = c(0.1, 3.4)))+
