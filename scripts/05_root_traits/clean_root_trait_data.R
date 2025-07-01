@@ -1,6 +1,6 @@
 # 1) Clean raw root trait field data, join with rootpainter scan and derive root traits; 2) Clean and join all root scan data
 # created 18/10/2024 by Lina
-# modified 17/06/2025 by Joe
+# modified 01/07/2025 by Joe
 
 ### 1. Set up ----
 library(tidyverse)
@@ -38,19 +38,19 @@ roots_joined[roots_joined$File.Name == "FET3274", "root_dry_mass"] <- roots_join
 
 ### Calculate derived root and leaf traits, clean value names
 derived_roots <- roots_joined  %>% 
-  mutate(agb_bgb = AGB/BGB,
+  mutate(bgb_agb = BGB/AGB,
          srl = (Total.Root.Length.mm*0.001)/root_dry_mass,
          rtd = root_dry_mass/(Volume.mm3*0.001),
          rdmc = (root_dry_mass*1000)/root_wet_mass_g,
          sla = (leaf_area/leaf_dry_mass),
          ldmc = (leaf_dry_mass/leaf_wet_mass_g)) %>% 
   rowwise() %>% 
-  mutate(lt_mean = mean(c_across(starts_with("leaf_thick")), na.rm = F), .after = srl) %>%
+  mutate(leaf_thickness = mean(c_across(starts_with("leaf_thick")), na.rm = F), .after = srl) %>%
   mutate(aspect = case_when(
     aspect == 'W' ~ 'west',
     aspect == 'NW' ~ 'northwest'
   ), 
-  fire = ifelse(fire == "",0,1),
+  fire = ifelse(is.na(fire),0,1),
   sp = case_when(
     sp == 'EC' ~ 'Eragrostis capensis',
     sp == 'HF' ~ 'Harpochloa falx',
@@ -61,21 +61,44 @@ derived_roots <- roots_joined  %>%
 
 ### Select relevant variables and rename variables
 clean_roots <- derived_roots %>%
-  dplyr::select(id = File.Name, date, elevation_m_asl = elevation, site_id = siteID, aspect, species = sp, plant_id = plantID, fire, 
-                root_depth, no_root_scan, total_root_wet_mass = root_wet_mass_g, total_root_dry_mass = root_dry_mass, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi_branches = Branching.frequency.per.mm, srl, rtd, rdmc, no_tuber_scan, total_tuber_wet_mass = tuber_wet_mass_g, total_tuber_dry_mass = tuber_dry_mass,
-                reproductive_height = leafID, veg_height = height, no_leaf, total_leaf_wet_mass = leaf_wet_mass_g, total_leaf_dry_mass = leaf_dry_mass, total_leaf_area = leaf_area, sla, lt_mean, ldmc,  agb_bgb, aboveground_biomass = AGB, belowground_biomass = BGB) 
+  dplyr::select(id = File.Name, date, aspect, site_id = siteID, elevation_m_asl = elevation, plant_id = plantID, species = sp, fire, 
+                root_depth, no_root_scan, root_wet_mass = root_wet_mass_g, root_dry_mass = root_dry_mass, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm, srl, rtd, rdmc, tuber_wet_mass = tuber_wet_mass_g, tuber_dry_mass = tuber_dry_mass,
+                reproductive_height = leafID, veg_height = height, no_leaves = no_leaf, leaf_wet_mass = leaf_wet_mass_g, leaf_dry_mass = leaf_dry_mass, leaf_area = leaf_area, sla, leaf_thickness, ldmc,  bgb_agb, aboveground_biomass = AGB, belowground_biomass = BGB) 
 
 ### known issues with RTD - plot interactively
-ggplotly(ggplot(clean_roots, aes(total_root_dry_mass_g, total_root_volume_mm3)) +
-           geom_point(aes(col = id, size = rtd_g_cm3)))
+ggplotly(ggplot(clean_roots, aes(root_dry_mass, total_root_volume)) +
+           geom_point(aes(col = id, size = rtd)))
 ### root dry mass and volume for FEK5954 are not outside of typical range; leave value in but filter out for summaries and figures later.
 
 ### pivot long and add units as new column
 long_roots <- clean_roots %>%
-  pivot_longer(cols = root_depth_cm:belowground_biomass_g, names_to = 'traits', values_to = 'value') %>%
+  pivot_longer(cols = root_depth:belowground_biomass, names_to = 'traits', values_to = 'value') %>%
   mutate(unit = case_when(
-    trait == 'root_depth' ~ 'cm',
-    traits == 'no_root_scan' ~ 'count'
+    traits == 'root_depth' ~ 'cm',
+    traits == 'no_root_scan' ~ 'count',
+    traits == 'root_wet_mass' ~ 'g',
+    traits == 'root_dry_mass' ~ 'g',
+    traits == 'total_root_length' ~ 'cm',
+    traits == 'total_root_volume' ~ 'mm3',
+    traits == 'rd' ~ 'mm',
+    traits == 'bi' ~ 'count mm-1',
+    traits == 'srl' ~ 'm g-1',
+    traits == 'rtd' ~ 'g cm-3',
+    traits == 'rdmc' ~ 'mg g-1',
+    traits == 'tuber_wet_mass' ~ 'g',
+    traits == 'tuber_dry_mass' ~ 'g',
+    traits == 'reproductive_height' ~ 'cm',
+    traits == 'no_leaf' ~ 'count',
+    traits == 'veg_height' ~ 'cm',
+    traits == 'leaf_wet_mass' ~ 'g',
+    traits == 'leaf_dry_mass' ~ 'g',
+    traits == 'leaf_area' ~ 'cm2',
+    traits == 'sla' ~ 'cm2 g-1',
+    traits == 'leaf_thickness' ~ 'mm',
+    traits == 'ldmc' ~ 'g g-1',
+    traits == 'bgb_agb' ~ 'g g-1',
+    traits == 'aboveground_biomass' ~ 'g',
+    traits == 'belowground_biomass' ~ 'g',
   ))
 
 ### save clean root trait field and rootpainter scan data
@@ -84,20 +107,20 @@ write_csv(long_roots, 'v_root_traits/v_PFCT7_SA_clean_root_traits_2023.csv')
 ### 3. Format scan data ----
 # select root mass measurements
 roots_select <- clean_roots %>%
-  dplyr::select(id, total_root_dry_mass_g, total_root_wet_mass_g)
+  dplyr::select(id, root_dry_mass, root_wet_mass)
 
 # select id and key root scan metrics
 # raw
 raw_scans_select <- raw_scans %>%
-  dplyr::select(id = File.Name, total_root_length_mm = Total.Root.Length.mm, total_root_volume_mm3 = Volume.mm3, rd_mm = Average.Diameter.mm, bi_branches_mm = Branching.frequency.per.mm)
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
 
 # gimp
 gimp_scans_select <- gimp_scans %>%
-  dplyr::select(id = File.Name, total_root_length_mm = Total.Root.Length.mm, total_root_volume_mm3 = Volume.mm3, rd_mm = Average.Diameter.mm, bi_branches_mm = Branching.frequency.per.mm)
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
 
 # rootpainter
 rootpainter_scans_select <- rootpainter_scans %>%
-  dplyr::select(id = File.Name, total_root_length_mm = Total.Root.Length.mm, total_root_volume_mm3 = Volume.mm3, rd_mm = Average.Diameter.mm, bi_branches_mm = Branching.frequency.per.mm)
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
 
 # combine root scans together
 all_scans <- bind_rows(raw_scans_select, gimp_scans_select, rootpainter_scans_select, .id = 'source') %>%
@@ -110,10 +133,10 @@ all_scans <- bind_rows(raw_scans_select, gimp_scans_select, rootpainter_scans_se
 # join together with key root trait metrics and calculate derived traits (SRL, RTD, RDMC)
 methods_comparison <- all_scans %>%
   left_join(roots_select, by = 'id') %>% 
-  mutate(srl_m_g = (total_root_length_mm*0.001)/total_root_dry_mass_g,
-  rtd_g_cm3 = total_root_dry_mass_g/(total_root_volume_mm3*0.001),
-  rdmc_mg_g = (total_root_dry_mass_g*1000)/total_root_wet_mass_g) %>%
-  dplyr::select(source:bi_branches_mm, srl_m_g:rdmc_mg_g)
+  mutate(srl = (total_root_length*0.001)/root_dry_mass,
+  rtd = root_dry_mass/(total_root_volume*0.001),
+  rdmc = (root_dry_mass*1000)/root_wet_mass) %>%
+  dplyr::select(source:bi, srl:rdmc)
 
 # save root scan comparison dataset for technical validation
 write_csv(methods_comparison, 'v_root_traits/v_PFCT7_SA_clean_scan_methods_comparison_2023.csv')

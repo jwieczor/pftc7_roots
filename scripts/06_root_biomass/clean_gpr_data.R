@@ -6,21 +6,21 @@ library(osfr)
 
 ### retrieve raw data files from the OSF project page
 osf_retrieve_node('hk2cy') %>%
-  osf_ls_files(path = 'raw_data/06_raw_root_biomass/') %>%
+  osf_ls_files(path = 'raw_data/vi_raw_root_biomass/') %>%
   filter(!str_ends(name, '.zip')) %>% # don't download the raw dzt files
-  osf_download(path = 'raw_data/06_raw_root_biomass/', conflicts = 'overwrite')
+  osf_download(path = 'raw_data/vi_raw_root_biomass/', conflicts = 'overwrite')
 
 ### load in scan file name changes
-name_changes <- read_csv('raw_data/06_raw_root_biomass/scan_file_name_changes.csv')
+name_changes <- read_csv('raw_data/vi_raw_root_biomass/scan_file_name_changes.csv')
 
 ### 2. Format raw and save clean PLOT data ----
 ### load in gpr plot data
-plot_dir <- list.files('raw_data/06_raw_root_biomass/plots/', full.names = T)
+plot_dir <- list.files('raw_data/vi_raw_root_biomass/plots/', full.names = T)
 plots <- lapply(plot_dir, read_csv) %>% bind_rows()
 
 ### format
 plots <- plots %>%
-  select(scan_file = `SCAN FILE`, type = TYPE, position_m = `POSITION (m)`, depth_m = `DEPTH (m)`, amplitude_dB = AMPLITUDE, pixel_count = `PIXEL COUNT`) %>%
+  select(scan_file = `SCAN FILE`, type = TYPE, position = `POSITION (m)`, depth = `DEPTH (m)`, amplitude = AMPLITUDE, pixel_count = `PIXEL COUNT`) %>%
   filter(str_detect(scan_file, 'ROOT')) # filter out extra metadata in files on zone detections
 
 # add in columns and change names
@@ -41,31 +41,36 @@ clean_plots <- plots %>%
          date = case_when(
            site_id %in% c(1, 2, 4) ~ '14/12/2023',
            site_id == 3 ~ '9/12/2023'
+         ),
+         type = case_when(
+           type == 'DETECT' ~ 'detect',
+           type == 'MARKER' ~ 'marker'
          )) %>%
   dplyr::select(date, elevation_m_asl, site_id, aspect, scan_file = new_name, type:pixel_count) %>%
-  mutate(across(depth_m:pixel_count, ~gsub('-', NA, .)))
+  mutate(across(depth:pixel_count, ~gsub('-', NA, .)))
 
 ### save clean plot data
-write_csv(clean_plots, '06_root_biomass/PFTC7_SA_clean_gpr_plot_2023.csv')
+write_csv(clean_plots, 'vi_root_biomass/vi_PFTC7_SA_clean_gpr_plot_2023.csv')
 
 ### 3. Format raw and save clean TRANSECT and ROOT BIOMASS data ----
 ### load in root biomass data
-list.files('raw_data/06_root_biomass')
+list.files('raw_data/vi_raw_root_biomass')
 
-root_biomass <- read_csv('raw_data/06_raw_root_biomass/PFTC7_SA_raw_root_biomass_2023.csv') %>%
+root_biomass <- read_csv('raw_data/vi_raw_root_biomass/PFTC7_SA_raw_root_biomass_2023.csv') %>%
   dplyr::select(site_id, transect, position_m:dry_soil_mass_g) %>%
   mutate(site_id = as.character(site_id),
          transect = as.character(transect),
          root_to_soil_ratio = dry_root_mass_g/dry_soil_mass_g,
-         root_to_soil_and_stone_ratio = dry_root_mass_g/(dry_soil_mass_g + stone_mass_g))
+         root_to_soil_and_stone_ratio = dry_root_mass_g/(dry_soil_mass_g + stone_mass_g)) %>%
+  rename(position = position_m)
 
 ### load in gpr transect data
-transects_dir <- list.files('raw_data/06_raw_root_biomass/transects/', full.names = T)
+transects_dir <- list.files('raw_data/vi_raw_root_biomass/transects/', full.names = T)
 transects <- lapply(transects_dir, function(x) read_csv(x, col_types = cols(.default = 'd', `SCAN FILE` = 'c', TYPE = 'c'))) %>% bind_rows()
 
 ### format
 transects <- transects %>%
-  select(scan_file = `SCAN FILE`, type = TYPE, position_m = `POSITION (m)`, depth_m = `DEPTH (m)`, amplitude_dB = AMPLITUDE, pixel_count = `PIXEL COUNT`) %>%
+  select(scan_file = `SCAN FILE`, type = TYPE, position = `POSITION (m)`, depth = `DEPTH (m)`, amplitude = AMPLITUDE, pixel_count = `PIXEL COUNT`) %>%
   filter(str_detect(scan_file, 'ROOT')) %>% # filter out extra metadata in files on zone detections
   filter(type != 'MARKER') # remove marker from the transect files
 
@@ -85,11 +90,12 @@ clean_transects <- transects %>%
            site_id %in% c(1, 2, 4) ~ '14/12/2023',
            site_id == 3 ~ '9/12/2023'
          )) %>%
-  dplyr::select(date, elevation_m_asl, site_id, aspect, transect, scan_file = new_name, position_m:pixel_count)
+  dplyr::select(date, elevation_m_asl, site_id, aspect, transect, scan_file = new_name, position:pixel_count)
 
 # join root biomass data on to gpr transects 
 joined_transects <- clean_transects %>%
-  left_join(root_biomass, by = c('site_id', 'transect', 'position_m'))
+  left_join(root_biomass, by = c('site_id', 'transect', 'position')) %>%
+  rename(sample_depth = sample_depth_cm, soil_depth = soil_depth_cm, dry_root_mass = dry_root_mass_g, stone_mass = stone_mass_g, dry_soil_mass = dry_soil_mass_g)
 
 ### save clean transect and root biomass data
-write_csv(joined_transects, '06_root_biomass/PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv')
+write_csv(joined_transects, 'vi_root_biomass/vi_PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv')
