@@ -102,7 +102,7 @@ long_roots <- clean_roots %>%
   ))
 
 ### save clean root trait field and rootpainter scan data
-write_csv(long_roots, 'v_root_traits/v_PFCT7_SA_clean_root_traits_2023.csv')
+write_csv(long_roots, 'v_root_traits/v_PFCT7_clean_root_traits_2023.csv')
 
 ### 3. Format scan data ----
 # select root mass measurements
@@ -139,4 +139,4 @@ methods_comparison <- all_scans %>%
   dplyr::select(source:bi, srl:rdmc)
 
 # save root scan comparison dataset for technical validation
-write_csv(methods_comparison, 'v_root_traits/v_PFCT7_SA_clean_scan_methods_comparison_2023.csv')
+write_csv(methods_comparison, 'v_root_traits/v_PFCT7_clean_scan_methods_comparison_2023.csv')

@@ -50,4 +50,4 @@ soil_format <- soil_filt %>%
     variable == 'silt' ~ '%'))
 
 ### 4. Save clean data
-write_csv(soil_format, 'xii_soil_texture_nutrients/xii_PFTC7_SA_clean_soil_2023.csv')
+write_csv(soil_format, 'xii_soil_texture_nutrients/xii_PFTC7_clean_soil_2023.csv')

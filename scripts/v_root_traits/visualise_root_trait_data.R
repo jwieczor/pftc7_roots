@@ -11,7 +11,7 @@ library(RColorBrewer)
 
 ### 2. Format data ----
 # Load in root trait data
-root_traits <- read_csv('v_root_traits/v_PFCT7_SA_clean_root_traits_2023.csv') %>% 
+root_traits <- read_csv('v_root_traits/v_PFCT7_clean_root_traits_2023.csv') %>% 
   pivot_wider(names_from = traits, values_from = value) %>%
   mutate(elevation_m_asl = as.factor(elevation_m_asl))
 

@@ -12,7 +12,7 @@ library(ggpubr)
 library(patchwork)
 
 ### load clean transect and root biomass data
-gpr_clean <- read_csv('vi_root_biomass/vi_PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv') 
+gpr_clean <- read_csv('vi_root_biomass/vi_PFTC7_clean_gpr_transect_root_biomass_2023.csv') 
 
 ### 2. Format and glimpse data ----
 # keep only detections with corresponding root biomass data

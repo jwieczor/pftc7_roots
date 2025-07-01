@@ -5,7 +5,7 @@
 library(tidyverse)
 
 #### load in soil data
-soil <- read_csv('xii_soil_texture_nutrients/xii_PFTC7_SA_clean_soil_2023.csv')
+soil <- read_csv('xii_soil_texture_nutrients/xii_PFTC7_clean_soil_2023.csv')
 
 # summarise texture and nutriets at each elevation
 soil_summary <- soil %>%

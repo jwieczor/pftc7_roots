@@ -8,7 +8,7 @@ library(rcompanion)
 
 ### 2. Load data ----
 #### load in root data
-all_scan_methods <- read_csv('v_root_traits/v_PFCT7_SA_clean_scan_methods_comparison_2023.csv')
+all_scan_methods <- read_csv('v_root_traits/v_PFCT7_clean_scan_methods_comparison_2023.csv')
 head(all_scan_methods)
 
 #### select key scan traits that are direct measurements from the root scans in RhizoVision

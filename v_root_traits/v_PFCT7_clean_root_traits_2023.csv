@@ -14,7 +14,7 @@ FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,reproductive_height,32.8,cm
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,veg_height,15,cm
-FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,no_leaf,5,count
+FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,no_leaves,5,NA
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,leaf_wet_mass,0.193,g
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,leaf_dry_mass,0.0663,g
 FBC0289,12/05/2023,west,2,2200,3,Eragrostis capensis,1,leaf_area,10.324,cm2
@@ -39,7 +39,7 @@ FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,tuber_wet_mass,0.598
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,tuber_dry_mass,0.18462,g
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,reproductive_height,34,cm
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,veg_height,27,cm
-FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,no_leaf,1,count
+FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,no_leaves,1,NA
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,leaf_wet_mass,0.369,g
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,leaf_dry_mass,0.4487,g
 FBD8952,12/08/2023,northwest,5,2800,1,Senecio glaberrimus,1,leaf_area,6.056,cm2
@@ -64,7 +64,7 @@ FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,tuber_wet_mass,0.5807,g
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,tuber_dry_mass,0.18633,g
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,reproductive_height,36,cm
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,veg_height,18.4,cm
-FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,no_leaf,1,count
+FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,no_leaves,1,NA
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,leaf_wet_mass,1.0045,g
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,leaf_dry_mass,0.19982,g
 FBE2394,12/09/2023,west,3,2400,3,Senecio glaberrimus,0,leaf_area,19.036,cm2
@@ -89,7 +89,7 @@ FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,tuber_wet_mass,NA,g
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,tuber_dry_mass,NA,g
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,reproductive_height,NA,cm
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,veg_height,12,cm
-FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,no_leaf,5,count
+FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,no_leaves,5,NA
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,leaf_wet_mass,0.0868,g
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,leaf_dry_mass,0.03033,g
 FBF4179,12/08/2023,northwest,5,2800,2,Themeda triandra,1,leaf_area,6.109,cm2
@@ -114,7 +114,7 @@ FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,tuber_wet_mass,NA,g
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,tuber_dry_mass,NA,g
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,reproductive_height,18.5,cm
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,veg_height,15,cm
-FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,no_leaf,5,count
+FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,no_leaves,5,NA
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,leaf_wet_mass,0.0982,g
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,leaf_dry_mass,0.0367,g
 FBG3400,12/05/2023,west,2,2200,5,Themeda triandra,1,leaf_area,9.338,cm2
@@ -139,7 +139,7 @@ FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,tuber_wet_mass,0.575
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,tuber_dry_mass,0.19152,g
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,reproductive_height,29.7,cm
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,veg_height,14.5,cm
-FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,no_leaf,1,count
+FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,no_leaves,1,NA
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,leaf_wet_mass,1.9294,g
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,leaf_dry_mass,0.26669,g
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,1,leaf_area,34.673,cm2
@@ -164,7 +164,7 @@ FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,tuber_wet_mass,0.93
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,tuber_dry_mass,0.17859,g
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,reproductive_height,21.1,cm
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,veg_height,2.5,cm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,no_leaf,1,count
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,no_leaves,1,NA
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,leaf_wet_mass,0.6762,g
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,leaf_dry_mass,0.13551,g
 FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,0,leaf_area,12.243,cm2
@@ -189,7 +189,7 @@ FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,tuber_wet_mass,0.70
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,tuber_dry_mass,0.1356,g
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,reproductive_height,19.8,cm
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,veg_height,3.5,cm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,no_leaf,1,count
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,no_leaves,1,NA
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,leaf_wet_mass,0.4948,g
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,leaf_dry_mass,0.09943,g
 FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,0,leaf_area,8.924,cm2
@@ -214,7 +214,7 @@ FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,tuber_wet_mass,NA,g
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,tuber_dry_mass,NA,g
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,reproductive_height,17.2,cm
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,veg_height,19.2,cm
-FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,no_leaf,5,count
+FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,no_leaves,5,NA
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,leaf_wet_mass,0.0687,g
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,leaf_dry_mass,0.0315,g
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,1,leaf_area,8.14,cm2
@@ -239,7 +239,7 @@ FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,tuber_wet_mass,0.334
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,tuber_dry_mass,0.10701,g
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,reproductive_height,26.5,cm
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,veg_height,14.2,cm
-FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,no_leaf,1,count
+FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,no_leaves,1,NA
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,leaf_wet_mass,1.5364,g
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,leaf_dry_mass,0.22366,g
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,1,leaf_area,27.454,cm2
@@ -264,7 +264,7 @@ FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,tuber_wet_mass,0.64
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,tuber_dry_mass,0.12552,g
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,reproductive_height,7.8,cm
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,veg_height,4.1,cm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,no_leaf,1,count
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,no_leaves,1,NA
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,leaf_wet_mass,0.7515,g
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,leaf_dry_mass,0.13365,g
 FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,0,leaf_area,12.928,cm2
@@ -289,7 +289,7 @@ FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,tuber_wet_mass,NA,g
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,tuber_dry_mass,NA,g
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,reproductive_height,21.1,cm
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,veg_height,18.3,cm
-FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,no_leaf,5,count
+FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,no_leaves,5,NA
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,leaf_wet_mass,0.2021,g
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,leaf_dry_mass,0.0742,g
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,1,leaf_area,15.117,cm2
@@ -314,7 +314,7 @@ FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,tuber_wet_mass,0.806
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,tuber_dry_mass,0.13203,g
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,reproductive_height,23.9,cm
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,veg_height,9.7,cm
-FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,no_leaf,1,count
+FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,no_leaves,1,NA
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,leaf_wet_mass,1.3087,g
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,leaf_dry_mass,0.20102,g
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,1,leaf_area,19.888,cm2
@@ -339,7 +339,7 @@ FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,tuber_wet_mass,0.52
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,tuber_dry_mass,0.07859,g
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,reproductive_height,18.3,cm
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,veg_height,5,cm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,no_leaf,1,count
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,no_leaves,1,NA
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,leaf_wet_mass,0.7915,g
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,leaf_dry_mass,0.14951,g
 FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,0,leaf_area,15.614,cm2
@@ -364,7 +364,7 @@ FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,tuber_wet_mass,0.64
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,tuber_dry_mass,0.10746,g
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,reproductive_height,9.5,cm
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,veg_height,4,cm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,no_leaf,1,count
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,no_leaves,1,NA
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,leaf_wet_mass,1.0151,g
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,leaf_dry_mass,0.14336,g
 FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,0,leaf_area,16.376,cm2
@@ -389,7 +389,7 @@ FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,tuber_wet_mass,NA,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,tuber_dry_mass,NA,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,reproductive_height,25.9,cm
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,veg_height,18.2,cm
-FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,no_leaf,5,count
+FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,no_leaves,5,NA
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,leaf_wet_mass,0.1568,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,leaf_dry_mass,0.0579,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,1,leaf_area,13.722,cm2
@@ -414,7 +414,7 @@ FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,tuber_wet_mass,0.4185,g
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,tuber_dry_mass,0.1136,g
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,reproductive_height,22.5,cm
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,veg_height,11.5,cm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,no_leaf,1,count
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,no_leaves,1,NA
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,leaf_wet_mass,1.1152,g
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,leaf_dry_mass,0.2338,g
 FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,1,leaf_area,20.71,cm2
@@ -439,7 +439,7 @@ FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,tuber_wet_mass,0.6495,g
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,tuber_dry_mass,0.18223,g
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,reproductive_height,36,cm
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,veg_height,18.2,cm
-FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,no_leaf,1,count
+FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,no_leaves,1,NA
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,leaf_wet_mass,0.9809,g
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,leaf_dry_mass,0.1434,g
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,1,leaf_area,16.274,cm2
@@ -464,7 +464,7 @@ FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,reproductive_height,23.4,cm
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,veg_height,13.7,cm
-FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,no_leaf,5,count
+FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,no_leaves,5,NA
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,leaf_wet_mass,0.1289,g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,leaf_dry_mass,0.0459,g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,1,leaf_area,10.418,cm2
@@ -489,7 +489,7 @@ FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,tuber_wet_mass,1.1321,g
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,tuber_dry_mass,0.239,g
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,reproductive_height,19,cm
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,veg_height,15.5,cm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,no_leaf,1,count
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,no_leaves,1,NA
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,leaf_wet_mass,1.2497,g
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,leaf_dry_mass,0.2566,g
 FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,1,leaf_area,24.814,cm2
@@ -514,7 +514,7 @@ FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,tuber_wet_mass,0.203,g
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,tuber_dry_mass,0.08881,g
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,reproductive_height,18,cm
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,veg_height,11.7,cm
-FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,no_leaf,1,count
+FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,no_leaves,1,NA
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,leaf_wet_mass,0.8817,g
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,leaf_dry_mass,0.16331,g
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,1,leaf_area,17.18,cm2
@@ -539,7 +539,7 @@ FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,tuber_wet_mass,0.2829,g
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,tuber_dry_mass,0.10171,g
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,reproductive_height,30,cm
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,veg_height,14.6,cm
-FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,no_leaf,1,count
+FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,no_leaves,1,NA
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,leaf_wet_mass,0.4762,g
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,leaf_dry_mass,0.09164,g
 FBZ6377,12/08/2023,west,4,2600,1,Senecio glaberrimus,1,leaf_area,10.178,cm2
@@ -564,7 +564,7 @@ FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,reproductive_height,31.9,cm
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,veg_height,6.8,cm
-FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,no_leaf,5,count
+FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,no_leaves,5,NA
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,leaf_wet_mass,0.288,g
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,leaf_dry_mass,0.0938,g
 FCA5827,12/05/2023,west,2,2200,5,Eragrostis capensis,1,leaf_area,11.467,cm2
@@ -589,7 +589,7 @@ FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,tuber_wet_mass,0.9622,g
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,tuber_dry_mass,0.2751,g
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,reproductive_height,36,cm
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,veg_height,14,cm
-FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,no_leaf,1,count
+FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,no_leaves,1,NA
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,leaf_wet_mass,0.7798,g
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,leaf_dry_mass,0.1434,g
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,1,leaf_area,15.463,cm2
@@ -614,7 +614,7 @@ FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,tuber_wet_mass,0.5294,g
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,tuber_dry_mass,0.9028,g
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,reproductive_height,25.3,cm
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,veg_height,3.8,cm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,no_leaf,1,count
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,no_leaves,1,NA
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,leaf_wet_mass,0.5966,g
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,leaf_dry_mass,0.1105,g
 FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,1,leaf_area,10.28,cm2
@@ -639,7 +639,7 @@ FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,tuber_wet_mass,0.4412,g
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,tuber_dry_mass,0.15965,g
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,reproductive_height,41,cm
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,veg_height,19.5,cm
-FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,no_leaf,1,count
+FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,no_leaves,1,NA
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,leaf_wet_mass,0.7751,g
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,leaf_dry_mass,0.13562,g
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,1,leaf_area,15.902,cm2
@@ -664,7 +664,7 @@ FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,reproductive_height,25.2,cm
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,veg_height,8,cm
-FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,no_leaf,5,count
+FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,no_leaves,5,NA
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,leaf_wet_mass,0.189,g
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,leaf_dry_mass,0.336,g
 FCE1581,12/05/2023,west,2,2200,4,Eragrostis capensis,1,leaf_area,6.321,cm2
@@ -689,7 +689,7 @@ FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,tuber_wet_mass,1.5751,g
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,tuber_dry_mass,0.3839,g
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,reproductive_height,46.7,cm
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,veg_height,16,cm
-FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,no_leaf,1,count
+FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,no_leaves,1,NA
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,leaf_wet_mass,0.9725,g
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,leaf_dry_mass,0.142,g
 FCF2601,12/06/2023,west,2,2200,1,Senecio glaberrimus,1,leaf_area,15.86,cm2
@@ -714,7 +714,7 @@ FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,tuber_wet_mass,0.0123,g
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,tuber_dry_mass,0.12031,g
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,reproductive_height,35.6,cm
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,veg_height,20,cm
-FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,no_leaf,1,count
+FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,no_leaves,1,NA
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,leaf_wet_mass,0.4215,g
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,leaf_dry_mass,0.06366,g
 FCG9760,12/09/2023,west,3,2400,4,Senecio glaberrimus,0,leaf_area,8.964,cm2
@@ -739,7 +739,7 @@ FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,tuber_wet_mass,NA,g
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,tuber_dry_mass,NA,g
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,reproductive_height,NA,cm
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,veg_height,11.5,cm
-FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,no_leaf,5,count
+FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,no_leaves,5,NA
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,leaf_wet_mass,0.1094,g
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,leaf_dry_mass,0.03535,g
 FCH5965,12/08/2023,northwest,5,2800,4,Themeda triandra,1,leaf_area,7.494,cm2
@@ -764,7 +764,7 @@ FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,reproductive_height,29.4,cm
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,veg_height,5.8,cm
-FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,no_leaf,5,count
+FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,no_leaves,5,NA
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,leaf_wet_mass,0.1573,g
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,leaf_dry_mass,0.0471,g
 FCI1638,12/05/2023,west,2,2200,1,Eragrostis capensis,1,leaf_area,6.012,cm2
@@ -789,7 +789,7 @@ FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,tuber_wet_mass,0.3529,g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,tuber_dry_mass,0.1016,g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,reproductive_height,21.5,cm
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,veg_height,17.2,cm
-FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,no_leaf,1,count
+FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,no_leaves,1,NA
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,leaf_wet_mass,1.3984,g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,leaf_dry_mass,0.2766,g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,1,leaf_area,27.513,cm2
@@ -814,7 +814,7 @@ FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,tuber_wet_mass,0.2652,g
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,tuber_dry_mass,0.05608,g
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,reproductive_height,21.5,cm
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,veg_height,5.3,cm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,no_leaf,1,count
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,no_leaves,1,NA
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,leaf_wet_mass,0.4502,g
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,leaf_dry_mass,0.09691,g
 FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,0,leaf_area,8.338,cm2
@@ -839,7 +839,7 @@ FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,tuber_wet_mass,0.191,g
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,tuber_dry_mass,0.05992,g
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,reproductive_height,29.8,cm
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,veg_height,13.9,cm
-FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,no_leaf,1,count
+FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,no_leaves,1,NA
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,leaf_wet_mass,0.714,g
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,leaf_dry_mass,0.10252,g
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,1,leaf_area,14.687,cm2
@@ -864,7 +864,7 @@ FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,tuber_wet_mass,NA,g
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,tuber_dry_mass,NA,g
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,reproductive_height,25.8,cm
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,veg_height,15.5,cm
-FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,no_leaf,5,count
+FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,no_leaves,5,NA
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,leaf_wet_mass,0.1016,g
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,leaf_dry_mass,0.0353,g
 FCM1008,12/05/2023,west,2,2200,2,Themeda triandra,1,leaf_area,9.166,cm2
@@ -889,7 +889,7 @@ FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,tuber_wet_mass,0.1616,g
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,tuber_dry_mass,0.0572,g
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,reproductive_height,37.2,cm
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,veg_height,19.8,cm
-FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,no_leaf,1,count
+FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,no_leaves,1,NA
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,leaf_wet_mass,0.9094,g
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,leaf_dry_mass,0.1676,g
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,1,leaf_area,16.615,cm2
@@ -914,7 +914,7 @@ FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,tuber_wet_mass,0.6765,g
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,tuber_dry_mass,0.1592,g
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,reproductive_height,21.2,cm
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,veg_height,5.1,cm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,no_leaf,1,count
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,no_leaves,1,NA
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,leaf_wet_mass,0.7561,g
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,leaf_dry_mass,0.15403,g
 FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,1,leaf_area,14.178,cm2
@@ -939,7 +939,7 @@ FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,tuber_wet_mass,NA,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,tuber_dry_mass,NA,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,reproductive_height,22.5,cm
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,veg_height,21.5,cm
-FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,no_leaf,4,count
+FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,no_leaves,4,NA
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,leaf_wet_mass,0.1935,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,leaf_dry_mass,0.04616,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,0,leaf_area,8.839,cm2
@@ -964,7 +964,7 @@ FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,tuber_wet_mass,0.7861,g
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,tuber_dry_mass,0.2234,g
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,reproductive_height,19.5,cm
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,veg_height,7.5,cm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,no_leaf,1,count
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,no_leaves,1,NA
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,leaf_wet_mass,1.0034,g
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,leaf_dry_mass,0.2235,g
 FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,1,leaf_area,19.653,cm2
@@ -989,7 +989,7 @@ FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,tuber_wet_mass,0.8201,g
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,tuber_dry_mass,0.183,g
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,reproductive_height,9.1,cm
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,veg_height,10,cm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,no_leaf,1,count
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,no_leaves,1,NA
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,leaf_wet_mass,1.5822,g
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,leaf_dry_mass,0.2741,g
 FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,1,leaf_area,24.207,cm2
@@ -1014,7 +1014,7 @@ FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,tuber_wet_mass,0.6582,g
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,tuber_dry_mass,0.12652,g
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,reproductive_height,25.2,cm
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,veg_height,6.4,cm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,no_leaf,1,count
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,no_leaves,1,NA
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,leaf_wet_mass,0.8883,g
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,leaf_dry_mass,0.13588,g
 FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,1,leaf_area,15.074,cm2
@@ -1039,7 +1039,7 @@ FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,tuber_wet_mass,NA,g
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,tuber_dry_mass,NA,g
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,reproductive_height,36.2,cm
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,veg_height,9.4,cm
-FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,no_leaf,5,count
+FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,no_leaves,5,NA
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,leaf_wet_mass,0.1821,g
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,leaf_dry_mass,0.06666,g
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,1,leaf_area,14.458,cm2
@@ -1064,7 +1064,7 @@ FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,tuber_wet_mass,0.1772,g
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,tuber_dry_mass,0.0488,g
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,reproductive_height,27.4,cm
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,veg_height,15.6,cm
-FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,no_leaf,1,count
+FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,no_leaves,1,NA
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,leaf_wet_mass,0.5447,g
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,leaf_dry_mass,0.1179,g
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,1,leaf_area,10.442,cm2
@@ -1089,7 +1089,7 @@ FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,tuber_wet_mass,0.5776,g
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,tuber_dry_mass,0.1581,g
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,reproductive_height,27.5,cm
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,veg_height,7.5,cm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,no_leaf,1,count
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,no_leaves,1,NA
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,leaf_wet_mass,0.8705,g
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,leaf_dry_mass,0.1887,g
 FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,1,leaf_area,18.178,cm2
@@ -1114,7 +1114,7 @@ FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,tuber_wet_mass,0.7454,g
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,tuber_dry_mass,0.14541,g
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,reproductive_height,30.1,cm
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,veg_height,6.5,cm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,no_leaf,1,count
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,no_leaves,1,NA
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,leaf_wet_mass,1.6296,g
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,leaf_dry_mass,0.19215,g
 FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,1,leaf_area,15.302,cm2
@@ -1139,7 +1139,7 @@ FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,tuber_wet_mass,NA,g
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,tuber_dry_mass,NA,g
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,reproductive_height,17.5,cm
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,veg_height,9.2,cm
-FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,no_leaf,5,count
+FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,no_leaves,5,NA
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,leaf_wet_mass,0.1726,g
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,leaf_dry_mass,0.05718,g
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,0,leaf_area,13.664,cm2
@@ -1164,7 +1164,7 @@ FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,tuber_wet_mass,NA,g
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,tuber_dry_mass,NA,g
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,reproductive_height,23.5,cm
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,veg_height,10,cm
-FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,no_leaf,5,count
+FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,no_leaves,5,NA
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,leaf_wet_mass,0.459,g
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,leaf_dry_mass,0.10583,g
 FDB8375,12/08/2023,west,4,2600,1,Harpochloa falx,0,leaf_area,11.294,cm2
@@ -1189,7 +1189,7 @@ FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,tuber_wet_mass,NA,g
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,tuber_dry_mass,NA,g
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,reproductive_height,22,cm
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,veg_height,15,cm
-FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,no_leaf,5,count
+FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,no_leaves,5,NA
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,leaf_wet_mass,0.852,g
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,leaf_dry_mass,0.17765,g
 FDF3034,12/09/2023,west,3,2400,3,Harpochloa falx,1,leaf_area,26.82,cm2
@@ -1214,7 +1214,7 @@ FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,tuber_wet_mass,NA,g
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,tuber_dry_mass,NA,g
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,reproductive_height,35.3,cm
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,veg_height,13.3,cm
-FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,no_leaf,5,count
+FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,no_leaves,5,NA
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,leaf_wet_mass,0.8073,g
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,leaf_dry_mass,0.12571,g
 FDJ1565,12/09/2023,west,3,2400,2,Harpochloa falx,1,leaf_area,26.855,cm2
@@ -1239,7 +1239,7 @@ FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,tuber_wet_mass,NA,g
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,tuber_dry_mass,NA,g
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,reproductive_height,28.6,cm
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,veg_height,13.5,cm
-FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,no_leaf,5,count
+FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,no_leaves,5,NA
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,leaf_wet_mass,0.6985,g
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,leaf_dry_mass,0.15285,g
 FDN1018,12/09/2023,west,3,2400,1,Harpochloa falx,1,leaf_area,21.979,cm2
@@ -1264,7 +1264,7 @@ FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,tuber_wet_mass,NA,g
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,tuber_dry_mass,NA,g
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,reproductive_height,23.9,cm
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,veg_height,20.1,cm
-FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,no_leaf,5,count
+FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,no_leaves,5,NA
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,leaf_wet_mass,0.2408,g
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,leaf_dry_mass,0.0898,g
 FDR6843,12/09/2023,west,3,2400,5,Themeda triandra,1,leaf_area,19.969,cm2
@@ -1289,7 +1289,7 @@ FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,tuber_wet_mass,NA,g
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,tuber_dry_mass,NA,g
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,reproductive_height,24.6,cm
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,veg_height,13.2,cm
-FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,no_leaf,5,count
+FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,no_leaves,5,NA
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,leaf_wet_mass,0.1258,g
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,leaf_dry_mass,0.04521,g
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,1,leaf_area,11.387,cm2
@@ -1314,7 +1314,7 @@ FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,tuber_wet_mass,0.2983,g
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,tuber_dry_mass,0.06399,g
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,reproductive_height,28.8,cm
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,veg_height,5.3,cm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,no_leaf,1,count
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,no_leaves,1,NA
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,leaf_wet_mass,0.8981,g
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,leaf_dry_mass,0.17296,g
 FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,1,leaf_area,14.956,cm2
@@ -1339,7 +1339,7 @@ FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,tuber_wet_mass,NA,g
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,tuber_dry_mass,NA,g
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,reproductive_height,37.6,cm
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,veg_height,19.5,cm
-FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,no_leaf,5,count
+FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,no_leaves,5,NA
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,leaf_wet_mass,0.2419,g
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,leaf_dry_mass,0.08581,g
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,1,leaf_area,12.063,cm2
@@ -1364,7 +1364,7 @@ FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,reproductive_height,20.8,cm
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,veg_height,11.6,cm
-FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,no_leaf,5,count
+FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,no_leaves,5,NA
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,leaf_wet_mass,0.1414,g
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,leaf_dry_mass,0.04062,g
 FEC6189,12/09/2023,west,3,2400,4,Eragrostis capensis,1,leaf_area,7.398,cm2
@@ -1389,7 +1389,7 @@ FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,tuber_wet_mass,NA,g
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,tuber_dry_mass,NA,g
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,reproductive_height,28.5,cm
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,veg_height,16,cm
-FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,no_leaf,5,count
+FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,no_leaves,5,NA
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,leaf_wet_mass,0.174,g
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,leaf_dry_mass,0.06445,g
 FED1194,12/09/2023,west,3,2400,2,Themeda triandra,0,leaf_area,17.111,cm2
@@ -1414,7 +1414,7 @@ FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,tuber_wet_mass,0.242,g
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,tuber_dry_mass,0.08927,g
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,reproductive_height,42.2,cm
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,veg_height,21.3,cm
-FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,no_leaf,1,count
+FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,no_leaves,1,NA
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,leaf_wet_mass,1.018,g
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,leaf_dry_mass,0.16146,g
 FEG8108,12/09/2023,west,3,2400,5,Senecio glaberrimus,0,leaf_area,17.96,cm2
@@ -1439,7 +1439,7 @@ FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,tuber_wet_mass,NA,g
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,tuber_dry_mass,NA,g
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,reproductive_height,31,cm
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,veg_height,18.9,cm
-FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,no_leaf,5,count
+FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,no_leaves,5,NA
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,leaf_wet_mass,0.234,g
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,leaf_dry_mass,0.07888,g
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,0,leaf_area,14.873,cm2
@@ -1464,7 +1464,7 @@ FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,tuber_wet_mass,0.5651,g
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,tuber_dry_mass,0.11125,g
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,reproductive_height,32.4,cm
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,veg_height,9,cm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,no_leaf,1,count
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,no_leaves,1,NA
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,leaf_wet_mass,0.9391,g
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,leaf_dry_mass,0.16845,g
 FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,1,leaf_area,17.014,cm2
@@ -1489,7 +1489,7 @@ FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,reproductive_height,26.2,cm
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,veg_height,9.5,cm
-FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,no_leaf,5,count
+FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,no_leaves,5,NA
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,leaf_wet_mass,0.1797,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,leaf_dry_mass,0.05629,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,1,leaf_area,10.299,cm2
@@ -1514,7 +1514,7 @@ FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,tuber_wet_mass,0.7407,g
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,tuber_dry_mass,0.13608,g
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,reproductive_height,13.5,cm
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,veg_height,4.2,cm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,no_leaf,1,count
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,no_leaves,1,NA
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,leaf_wet_mass,0.8182,g
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,leaf_dry_mass,0.15648,g
 FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,1,leaf_area,14.659,cm2
@@ -1539,7 +1539,7 @@ FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,tuber_wet_mass,NA,g
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,tuber_dry_mass,NA,g
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,reproductive_height,17.2,cm
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,veg_height,14.6,cm
-FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,no_leaf,5,count
+FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,no_leaves,5,NA
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,leaf_wet_mass,0.1739,g
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,leaf_dry_mass,0.05042,g
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,0,leaf_area,10.053,cm2
@@ -1564,7 +1564,7 @@ FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,tuber_wet_mass,NA,g
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,tuber_dry_mass,NA,g
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,reproductive_height,41.2,cm
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,veg_height,14.4,cm
-FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,no_leaf,5,count
+FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,no_leaves,5,NA
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,leaf_wet_mass,0.9684,g
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,leaf_dry_mass,0.22844,g
 FES3675,12/09/2023,west,3,2400,5,Harpochloa falx,1,leaf_area,30.487,cm2
@@ -1589,7 +1589,7 @@ FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,tuber_wet_mass,NA,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,tuber_dry_mass,NA,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,reproductive_height,NA,cm
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,veg_height,12,cm
-FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,no_leaf,5,count
+FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,no_leaves,5,NA
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,leaf_wet_mass,0.1717,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,leaf_dry_mass,0.05594,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,1,leaf_area,12.585,cm2
@@ -1614,7 +1614,7 @@ FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,tuber_wet_mass,0.5238,g
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,tuber_dry_mass,0.09544,g
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,reproductive_height,33.5,cm
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,veg_height,6.9,cm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,no_leaf,1,count
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,no_leaves,1,NA
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,leaf_wet_mass,0.4367,g
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,leaf_dry_mass,0.08267,g
 FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,1,leaf_area,9.015,cm2
@@ -1639,7 +1639,7 @@ FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,tuber_wet_mass,NA,g
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,tuber_dry_mass,NA,g
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,reproductive_height,17.7,cm
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,veg_height,7.5,cm
-FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,no_leaf,5,count
+FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,no_leaves,5,NA
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,leaf_wet_mass,0.5792,g
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,leaf_dry_mass,0.14626,g
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,0,leaf_area,18.153,cm2
@@ -1664,7 +1664,7 @@ FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,tuber_wet_mass,NA,g
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,tuber_dry_mass,NA,g
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,reproductive_height,19.4,cm
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,veg_height,7.5,cm
-FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,no_leaf,4,count
+FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,no_leaves,4,NA
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,leaf_wet_mass,0.1059,g
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,leaf_dry_mass,0.03243,g
 FEY3832,12/08/2023,west,4,2600,1,Eragrostis capensis,0,leaf_area,6.192,cm2
@@ -1689,7 +1689,7 @@ FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,tuber_wet_mass,NA,g
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,tuber_dry_mass,NA,g
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,reproductive_height,24,cm
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,veg_height,9.7,cm
-FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,no_leaf,4,count
+FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,no_leaves,4,NA
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,leaf_wet_mass,0.496,g
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,leaf_dry_mass,0.12884,g
 FEZ5712,12/08/2023,west,4,2600,4,Harpochloa falx,1,leaf_area,13.364,cm2
@@ -1714,7 +1714,7 @@ FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,tuber_wet_mass,NA,g
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,tuber_dry_mass,NA,g
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,reproductive_height,NA,cm
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,veg_height,15.2,cm
-FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,no_leaf,5,count
+FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,no_leaves,5,NA
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,leaf_wet_mass,0.1293,g
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,leaf_dry_mass,0.0405,g
 FFC7215,12/08/2023,northwest,5,2800,3,Themeda triandra,1,leaf_area,9.295,cm2
@@ -1739,7 +1739,7 @@ FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,tuber_wet_mass,NA,g
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,tuber_dry_mass,NA,g
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,reproductive_height,22,cm
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,veg_height,6.8,cm
-FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,no_leaf,5,count
+FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,no_leaves,5,NA
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,leaf_wet_mass,0.3042,g
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,leaf_dry_mass,0.06996,g
 FFD9944,12/08/2023,west,4,2600,5,Harpochloa falx,0,leaf_area,11.461,cm2
@@ -1764,7 +1764,7 @@ FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,tuber_wet_mass,NA,g
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,tuber_dry_mass,NA,g
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,reproductive_height,37,cm
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,veg_height,20,cm
-FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,no_leaf,5,count
+FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,no_leaves,5,NA
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,leaf_wet_mass,0.4812,g
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,leaf_dry_mass,0.12929,g
 FFG0527,12/13/2023,west,2,2200,5,Harpochloa falx,0,leaf_area,14.509,cm2
@@ -1789,7 +1789,7 @@ FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,tuber_wet_mass,NA,g
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,tuber_dry_mass,NA,g
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,reproductive_height,NA,cm
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,veg_height,13.2,cm
-FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,no_leaf,5,count
+FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,no_leaves,5,NA
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,leaf_wet_mass,0.1446,g
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,leaf_dry_mass,0.04532,g
 FFH9263,12/08/2023,northwest,5,2800,1,Themeda triandra,1,leaf_area,10.794,cm2
@@ -1814,7 +1814,7 @@ FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,tuber_wet_mass,NA,g
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,tuber_dry_mass,NA,g
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,reproductive_height,45,cm
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,veg_height,13.5,cm
-FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,no_leaf,5,count
+FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,no_leaves,5,NA
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,leaf_wet_mass,0.411,g
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,leaf_dry_mass,0.10698,g
 FFK2932,12/13/2023,west,2,2200,1,Harpochloa falx,1,leaf_area,11.601,cm2
@@ -1839,7 +1839,7 @@ FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,tuber_wet_mass,NA,g
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,tuber_dry_mass,NA,g
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,reproductive_height,46.5,cm
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,veg_height,32.5,cm
-FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,no_leaf,5,count
+FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,no_leaves,5,NA
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,leaf_wet_mass,0.8081,g
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,leaf_dry_mass,0.19192,g
 FFL3841,12/13/2023,west,2,2200,2,Harpochloa falx,0,leaf_area,22.476,cm2
@@ -1864,7 +1864,7 @@ FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,tuber_wet_mass,NA,g
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,tuber_dry_mass,NA,g
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,reproductive_height,14,cm
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,veg_height,11.6,cm
-FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,no_leaf,4,count
+FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,no_leaves,4,NA
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,leaf_wet_mass,0.1521,g
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,leaf_dry_mass,0.04988,g
 FFO5284,12/08/2023,west,4,2600,5,Themeda triandra,1,leaf_area,12.889,cm2
@@ -1889,7 +1889,7 @@ FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,tuber_wet_mass,NA,g
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,tuber_dry_mass,NA,g
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,reproductive_height,21.6,cm
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,veg_height,7.1,cm
-FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,no_leaf,5,count
+FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,no_leaves,5,NA
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,leaf_wet_mass,0.4485,g
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,leaf_dry_mass,0.10985,g
 FFP1160,12/08/2023,northwest,5,2800,4,Harpochloa falx,1,leaf_area,13.789,cm2
@@ -1914,7 +1914,7 @@ FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,tuber_wet_mass,NA,g
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,tuber_dry_mass,NA,g
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,reproductive_height,31,cm
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,veg_height,11,cm
-FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,no_leaf,5,count
+FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,no_leaves,5,NA
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,leaf_wet_mass,0.6533,g
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,leaf_dry_mass,0.15607,g
 FFS2715,12/13/2023,west,2,2200,4,Harpochloa falx,0,leaf_area,18.569,cm2
@@ -1939,7 +1939,7 @@ FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,tuber_wet_mass,0.2278,g
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,tuber_dry_mass,0.08481,g
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,reproductive_height,38.9,cm
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,veg_height,21.5,cm
-FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,no_leaf,1,count
+FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,no_leaves,1,NA
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,leaf_wet_mass,0.6912,g
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,leaf_dry_mass,0.11621,g
 FFT9800,12/09/2023,west,3,2400,2,Senecio glaberrimus,1,leaf_area,12.847,cm2
@@ -1964,7 +1964,7 @@ FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,tuber_wet_mass,0.3228,g
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,tuber_dry_mass,0.06723,g
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,reproductive_height,37,cm
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,veg_height,22.2,cm
-FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,no_leaf,1,count
+FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,no_leaves,1,NA
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,leaf_wet_mass,1.0568,g
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,leaf_dry_mass,0.1702,g
 FFU7165,12/09/2023,west,3,2400,1,Senecio glaberrimus,1,leaf_area,18.747,cm2
@@ -1989,7 +1989,7 @@ FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,tuber_wet_mass,NA,g
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,tuber_dry_mass,NA,g
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,reproductive_height,44.3,cm
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,veg_height,23,cm
-FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,no_leaf,5,count
+FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,no_leaves,5,NA
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,leaf_wet_mass,0.686,g
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,leaf_dry_mass,0.18022,g
 FFW6775,12/13/2023,west,2,2200,3,Harpochloa falx,0,leaf_area,17.963,cm2
@@ -2014,7 +2014,7 @@ FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,tuber_wet_mass,NA,g
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,tuber_dry_mass,NA,g
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,reproductive_height,18.6,cm
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,veg_height,10.8,cm
-FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,no_leaf,5,count
+FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,no_leaves,5,NA
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,leaf_wet_mass,0.4311,g
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,leaf_dry_mass,0.10177,g
 FFX9242,12/08/2023,northwest,5,2800,3,Harpochloa falx,1,leaf_area,15.554,cm2
@@ -2039,7 +2039,7 @@ FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,tuber_wet_mass,NA,g
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,tuber_dry_mass,NA,g
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,reproductive_height,30.2,cm
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,veg_height,10,cm
-FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,no_leaf,5,count
+FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,no_leaves,5,NA
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,leaf_wet_mass,0.235,g
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,leaf_dry_mass,0.08155,g
 FFY6725,12/08/2023,west,4,2600,4,Eragrostis capensis,0,leaf_area,13.813,cm2
@@ -2064,7 +2064,7 @@ FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,reproductive_height,27.7,cm
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,veg_height,9.9,cm
-FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,no_leaf,5,count
+FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,no_leaves,5,NA
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,leaf_wet_mass,0.1708,g
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,leaf_dry_mass,0.05967,g
 FGA6390,12/09/2023,west,3,2400,3,Eragrostis capensis,1,leaf_area,11.079,cm2
@@ -2089,7 +2089,7 @@ FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,reproductive_height,25.1,cm
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,veg_height,13.6,cm
-FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,no_leaf,5,count
+FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,no_leaves,5,NA
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,leaf_wet_mass,0.1497,g
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,leaf_dry_mass,0.04887,g
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,1,leaf_area,8.502,cm2
@@ -2114,7 +2114,7 @@ FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,tuber_wet_mass,0.789,g
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,tuber_dry_mass,0.12903,g
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,reproductive_height,30.4,cm
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,veg_height,4.7,cm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,no_leaf,1,count
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,no_leaves,1,NA
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,leaf_wet_mass,0.6843,g
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,leaf_dry_mass,0.12099,g
 FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,1,leaf_area,11.784,cm2
@@ -2139,7 +2139,7 @@ FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,tuber_wet_mass,NA,g
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,tuber_dry_mass,NA,g
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,reproductive_height,30.5,cm
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,veg_height,9.4,cm
-FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,no_leaf,5,count
+FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,no_leaves,5,NA
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,leaf_wet_mass,0.1902,g
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,leaf_dry_mass,0.06281,g
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,0,leaf_area,9.654,cm2
@@ -2164,7 +2164,7 @@ FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,tuber_wet_mass,NA,g
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,tuber_dry_mass,NA,g
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,reproductive_height,23,cm
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,veg_height,10.4,cm
-FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,no_leaf,5,count
+FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,no_leaves,5,NA
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,leaf_wet_mass,0.5815,g
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,leaf_dry_mass,0.14747,g
 FGF3594,12/08/2023,northwest,5,2800,5,Harpochloa falx,1,leaf_area,19.906,cm2
@@ -2189,7 +2189,7 @@ FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,reproductive_height,13,cm
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,veg_height,17,cm
-FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,no_leaf,5,count
+FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,no_leaves,5,NA
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,leaf_wet_mass,0.1677,g
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,leaf_dry_mass,0.05813,g
 FGG8281,12/08/2023,west,4,2600,5,Eragrostis capensis,1,leaf_area,9.824,cm2
@@ -2214,7 +2214,7 @@ FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,tuber_wet_mass,NA,g
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,tuber_dry_mass,NA,g
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,reproductive_height,18.5,cm
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,veg_height,16,cm
-FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,no_leaf,5,count
+FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,no_leaves,5,NA
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,leaf_wet_mass,0.6889,g
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,leaf_dry_mass,0.15852,g
 FGI9956,12/09/2023,west,3,2400,4,Harpochloa falx,1,leaf_area,21.095,cm2
@@ -2239,7 +2239,7 @@ FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,tuber_wet_mass,NA,g
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,tuber_dry_mass,NA,g
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,reproductive_height,20.1,cm
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,veg_height,6.9,cm
-FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,no_leaf,5,count
+FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,no_leaves,5,NA
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,leaf_wet_mass,0.1831,g
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,leaf_dry_mass,0.06427,g
 FGJ9233,12/09/2023,west,3,2400,2,Eragrostis capensis,1,leaf_area,10.8,cm2
@@ -2264,7 +2264,7 @@ FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,tuber_wet_mass,NA,g
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,tuber_dry_mass,NA,g
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,reproductive_height,22.5,cm
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,veg_height,10.1,cm
-FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,no_leaf,5,count
+FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,no_leaves,5,NA
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,leaf_wet_mass,0.5442,g
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,leaf_dry_mass,0.13154,g
 FGK3505,12/08/2023,west,4,2600,3,Harpochloa falx,0,leaf_area,18.328,cm2
@@ -2289,7 +2289,7 @@ FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,tuber_wet_mass,NA,g
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,tuber_dry_mass,NA,g
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,reproductive_height,19.5,cm
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,veg_height,11,cm
-FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,no_leaf,5,count
+FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,no_leaves,5,NA
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,leaf_wet_mass,0.547,g
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,leaf_dry_mass,0.14015,g
 FGM0803,12/08/2023,northwest,5,2800,1,Harpochloa falx,1,leaf_area,16.866,cm2
@@ -2314,7 +2314,7 @@ FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,tuber_wet_mass,NA,g
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,tuber_dry_mass,NA,g
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,reproductive_height,17,cm
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,veg_height,8.1,cm
-FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,no_leaf,5,count
+FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,no_leaves,5,NA
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,leaf_wet_mass,0.4848,g
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,leaf_dry_mass,0.12216,g
 FGN0784,12/08/2023,northwest,5,2800,2,Harpochloa falx,1,leaf_area,17.529,cm2
@@ -2339,7 +2339,7 @@ FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,tuber_wet_mass,NA,g
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,tuber_dry_mass,NA,g
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,reproductive_height,10,cm
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,veg_height,6,cm
-FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,no_leaf,5,count
+FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,no_leaves,5,NA
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,leaf_wet_mass,0.8,g
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,leaf_dry_mass,0.02,g
 FGO9191,12/08/2023,west,4,2600,2,Eragrostis capensis,0,leaf_area,5.339,cm2

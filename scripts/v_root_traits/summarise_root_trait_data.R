@@ -5,7 +5,7 @@
 library(tidyverse)
 
 ### load in root trait data
-roots <- read_csv('v_root_traits/v_PFCT7_SA_clean_root_traits_2023.csv')
+roots <- read_csv('v_root_traits/v_PFCT7_clean_root_traits_2023.csv')
 
 ### FEK5954 is an outlier, convert to NA for summaries
 roots[roots$id == "FEK5954", "rtd_g_cm3"] <- NA

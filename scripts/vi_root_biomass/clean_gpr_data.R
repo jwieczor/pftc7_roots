@@ -50,7 +50,7 @@ clean_plots <- plots %>%
   mutate(across(depth:pixel_count, ~gsub('-', NA, .)))
 
 ### save clean plot data
-write_csv(clean_plots, 'vi_root_biomass/vi_PFTC7_SA_clean_gpr_plot_2023.csv')
+write_csv(clean_plots, 'vi_root_biomass/vi_PFTC7_clean_gpr_plot_2023.csv')
 
 ### 3. Format raw and save clean TRANSECT and ROOT BIOMASS data ----
 ### load in root biomass data
@@ -98,4 +98,4 @@ joined_transects <- clean_transects %>%
   rename(sample_depth = sample_depth_cm, soil_depth = soil_depth_cm, dry_root_mass = dry_root_mass_g, stone_mass = stone_mass_g, dry_soil_mass = dry_soil_mass_g)
 
 ### save clean transect and root biomass data
-write_csv(joined_transects, 'vi_root_biomass/vi_PFTC7_SA_clean_gpr_transect_root_biomass_2023.csv')
+write_csv(joined_transects, 'vi_root_biomass/vi_PFTC7_clean_gpr_transect_root_biomass_2023.csv')
