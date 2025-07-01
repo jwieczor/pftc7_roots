@@ -4,11 +4,11 @@ This GitHub repository contains the code to download, clean, summarise, analyse 
 
 The raw data can be downloaded from the [Open Science Framework platform](https://osf.io/hk2cy/), either directly or using the provided scripts.
 
-This repo contains the raw and clean data, and R scripts to clean the data for three datasets: a) root (and leaf) traits, b) root biomass mapping using a ground penetrating radar (GPR), and c) soil structure and nutrient analysis.
+This repo contains the raw and clean data, and R scripts to clean the data for three datasets: a) root (and leaf) traits, b) root biomass mapping using a ground penetrating radar (GPR), and c) soil texture and nutrient analysis.
 
 ## Folder structure
 
-Each dataset has it's own raw and clean data folder corresponding to its number (05, 06, 12). The R scripts are stored in the `scripts/` folder, while the exploratory results for each dataset are in the `results/` folder.
+Each dataset has it's own raw and clean data folder corresponding to its number (v, vi, xii). The R scripts are stored in the `scripts/` folder, while the exploratory results for each dataset are in the `results/` folder.
 
 ## Data dictionaries
 
@@ -16,70 +16,55 @@ Each of the clean datasets has a corresponding data dictionary to provide inform
 
 **Table 1. Data dictionary for the root (and leaf) traits.**
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                   |                                                                                                   |                                                                |                  |
-|----------|------------------------|----------|----------|----------|----------|
-| **Variable name** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Variable type** | **Variable range or levels**                                                                      | **Units**                                                      | **How measured** |
-| id                | Unique plant ID consisting of 3 letters and 4 numbers                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | categorical       | FBC0289 - FGO9191                                                                                 |                                                                | defined          |
-| date              | Date of sampling                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | date              | 2023-12-05 - 2023-12-13                                                                           | yyyy-mm-dd                                                     | recorded         |
-| elevation_m_asl   | Elevation of the site                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | numeric           | 2200-2800                                                                                         | m a.s.l.                                                       | recorded         |
-| site_id           | Site number                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | categorical       | 2, 3, 4, 5                                                                                        |                                                                |                  |
-| aspect            | Aspect the slope is facing; west or northwest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | categorical       | west, northwest                                                                                   |                                                                | recorded         |
-| species           | Species name including genus and species                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | categorical       | Eragrostis capensis, Harpochloa falx, Helichrysum pallidum, Senecio glaberrimus, Themeda triandra |                                                                | identified       |
-| plant_id          | Individual number                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | numeric           | 1, 2, 3, 4, 5                                                                                     |                                                                | recorded         |
-| fire              | Evidence of fire on the individual                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | categorical       | 0, 1                                                                                              |                                                                |                  |
-| traits            | Full plant traits including root depth (cm), number of roots scanned, total root wet mass (g), total root dry mass (g),  total root length (cm), total root volume, RD (mm), BI (branches.mm-1), SRL (mg-1), RTD (gcm-3), RDMC (mgg-1), number of tubers scanned, total tuber wet mass (g), total tuber dry mass (g), reproductive height (cm), vegetative height (cm), number of leaves, total leaf wet mass (g), total leaf dry mass (g), total leaf area (cm2), SLA (cm2g-1), leaf thickness (mm), LDMC (gg-1), above:belowground biomass ratio, aboveground biomass (g), belowground biomass (g) | categorical       | root_depth_cm - belowground_biomass_g                                                             | \-                                                             | defined          |
-| value             | Values for plant functional traits                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | numeric           | 0.0016 - 2471.00                                                                                  | cm, g, mm, mm3, mm-1, mg-1, g cm-3, mg g-1, cm2, cm2 g-1, gg-1 | measured         |
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable name** | **Description** | **Variable type** | **Variable range or levels** | **Units** | **How measured** |
+| id | Unique plant ID consisting of 3 letters and 4 numbers | character | FBC0289 - FGO9191 |  | defined |
+| plant_id | Individual number | numeric | 1, 2, 3, 4, 5 |  | recorded |
+| species | Species name including genus and species | character | Eragrostis capensis, Harpochloa falx, Helichrysum pallidum, Senecio glaberrimus, Themeda triandra |  | identified |
+| fire | Evidence of fire on the individual | logical | 0, 1 |  | defined |
+| traits | Full plant traits including root depth (cm), number of roots scanned (count), root wet mass (g), root dry mass (g),  total root length (cm), total root volume (mm3), RD (mean root diameter; mm), BI (branching intensity, count mm-1), SRL (specific root length; mg-1), RTD (gcm-3), RDMC (mgg-1), tuber wet mass (g), tuber dry mass (g), reproductive height (cm), vegetative height (cm), number of leaves (count), leaf wet mass (g), leaf dry mass (g), leaf area (cm2), SLA (cm2g-1), leaf thickness (mm), LDMC (leaf dry matter content; gg-1), belowground to aboveground biomass ratio (gg-1), aboveground biomass (g), belowground biomass (g)  | character | root_depth - belowground_biomass |  | defined |
+| value | Values for full plant traits | numeric | 0.0016 - 2471.00 | cm, count, g, mm3, mm, count mm-1, mg-1, gcm-3, mgg-1, cm2, cm2g-1, gg-1 | measured |
+| unit | Unit for trait values | character | cm - gg-1 |  | defined |
 
 **Table 2. Data dictionary for the root biomass mapping using GPR and the soil sample transects.**
 
-|                             |                                                                            |                   |                              |            |                  |
-|------------|---------------|------------|------------|------------|------------|
-| **Variable name**           | **Description**                                                            | **Variable type** | **Variable range or levels** | **Units**  | **How measured** |
-| date                        | Date of sampling                                                           | date              | 2023-12-09 - 2023-12-14      | yyyy-mm-dd | recorded         |
-| elevation_m_asl             | Elevation of the site                                                      | numeric           | 2000-2600                    | m a.s.l.   | recorded         |
-| site_id                     | Site number                                                                | categorical       | 1, 2, 3, 4                   |            |                  |
-| aspect                      | Aspect the slope is facing; west                                           | categorical       | west                         |            | recorded         |
-| transect                    | Transect number                                                            | categorical       | 1, 2                         |            |                  |
-| scan_file                   | Name of DZT file generated by the GPR                                      | character         |                              |            | defined          |
-| position_m                  | Horizontal position of the root detection along the transect               | numeric           | 0-20                         | m          | recorded         |
-| depth_m                     | Vertical position (i.e. depth) of the root detection along the transect    | numeric           | 0.01-0.22                    | m          | recorded         |
-| amplitude_dB                | Maximum reflectance of the peak of the reflection hyperbola                | numeric           | 0.8-70.5                     | dB         | recorded         |
-| pixel_count                 | Size of the reflectance                                                    | numeric           | 68-8291                      |            | recorded         |
-| sample_no                   | Number allocated to soil samples that were taken to determine root density | categorical       | 1-10                         |            | defined          |
-| sample_depth_cm             | The maximum depth at which the soil sample was taken                       | numeric           | 4-17.5                       | cm         | recorded         |
-| soil_depth_cm               | The maximum soil depth where each soil sample was taken                    | numeric           | 6.5-60                       | cm         | recorded         |
-| dry_root_mass_g             | The weight of the dry roots in each sample                                 | numeric           | 0.52-19.62                   | g          | recorded         |
-| stone_mass_g                | The weight of the stones in each sample                                    | numeric           | 10.97-413.05                 | g          | recorded         |
-| dry_soil_mass_g             | The weight of the dry soil in each sample                                  | numeric           | 7.57-181.04                  | g          | recorded         |
-| root_to_soil_ratio          | Root dry mass/soil dry mass                                                | numeric           | 0.004437996-0.289247537      | g g-1      | derived          |
-| root_to_soil_and_rock_ratio | Root dry mass/(soil dry mass + rock dry mass)                              | numeric           | 0.00124283-0.173527944       | g g-1      | derived          |
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable name** | **Description** | **Variable type** | **Variable range or levels** | **Units** | **How measured** |
+| transect | Transect number | categorical | 1, 2 |  |  |
+| scan_file | Name of DZT file generated by the GPR | character |  |  | defined |
+| position | Horizontal position of the root detection along the transect | numeric | 0-20 | m | recorded |
+| depth | Vertical position (i.e. depth) of the root detection along the transect | numeric | 0.01-0.22 | m | recorded |
+| amplitude | Maximum reflectance of the peak of the reflection hyperbola | numeric | 0.8-70.5 | dB | recorded |
+| pixel_count | Size of the reflectance | numeric | 68-8291 | count | recorded |
+| sample_no | Number allocated to soil samples that were taken to determine root density | categorical | 1-10 | count | defined |
+| sample_depth | The maximum depth at which the soil sample was taken | numeric | 4-17.5 | cm | recorded |
+| soil_depth | The maximum soil depth where each soil sample was taken  | numeric | 6.5-60 | cm | recordedh |
+| dry_root_mass | The weight of the dry roots in each sample | numeric | 0.52-19.62 | g | recorded |
+| stone_mass | The weight of the stones in each sample | numeric | 10.97-413.05 | g | recorded |
+| dry_soil_mass | The weight of the dry soil in each sample | numeric | 7.57-181.04 | g | recorded |
+| root_to_soil_ratio | Root dry mass/soil dry mass | numeric | 0.004437996-0.289247537 | g g-1 | derived |
+| root_to_soil_and_rock_ratio | Root dry mass/(soil dry mass + rock dry mass) | numeric | 0.00124283-0.173527944 | g g-1 | derived |
 
 **Table 3. Data dictionary for the root biomass mapping using GPR of the vegetation plots.**
 
-|                   |                                                                         |                   |                              |            |                  |
-|------------|---------------|------------|------------|------------|------------|
-| **Variable name** | **Description**                                                         | **Variable type** | **Variable range or levels** | **Units**  | **How measured** |
-| date              | Date of sampling                                                        | date              | 2023-12-09 - 2023-12-14      | yyyy-mm-dd | recorded         |
-| elevation_m_asl   | Elevation of the site                                                   | numeric           | 2000-2600                    | m a.s.l.   | recorded         |
-| site_id           | Site number                                                             | categorical       | 1, 2, 3, 4                   |            |                  |
-| aspect            | Aspect the slope is facing; east or west                                | categorical       | east, west                   |            | recorded         |
-| scan_file         | Name of DZT file generated by the GPR                                   | character         |                              |            | defined          |
-| type              | The type of measurement that was taken                                  | categorical       | Detect, Marker               |            | recorded         |
-| position_m        | Horizontal position of the root detection along the transect            | numeric           | 0-20                         | m          | recorded         |
-| depth_m           | Vertical position (i.e. depth) of the root detection along the transect | numeric           | 0.01-0.22                    | m          | recorded         |
-| amplitude_dB      | Maximum reflectance of the peak of the reflection hyperbola             | numeric           | 0.8-70.5                     | dB         | recorded         |
-| pixel_count       | Size of the reflectance                                                 | numeric           | 68-8291                      | count      | recorded         |
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable name** | **Description** | **Variable type** | **Variable range or levels** | **Units** | **How measured** |
+| scan_file | Name of DZT file generated by the GPR | character |  |  | defined |
+| type | The type of measurement that was taken (detect was a direct measurement; marker signals the start and end of a plot) | categorical | detect, marker |  | recorded |
+| position | Horizontal position of the root detection along the transect | numeric | 0-20 | m | recorded |
+| depth | Vertical position (i.e. depth) of the root detection along the transect | numeric | 0.01-0.22 | m | recorded |
+| amplitude | Maximum reflectance of the peak of the reflection hyperbola | numeric | 0.8-70.5 | dB | recorded |
+| pixel_count | Size of the reflectance | numeric | 68-8291 | count | recorded |
 
 **Table 4. Data dictionary for the soil texture and nutrient analysis.**
 
-|                   |                                                                                                    |                   |                              |                       |                  |
-|-----------|-----------------|-----------|-----------|-----------|-----------|
-| **Variable name** | **Description**                                                                                    | **Variable type** | **Variable range or levels** | **Units**             | **How measured** |
-| id                | Unique soil collection ID consisting of 3 letters and 4 numbers                                    | categorical       | FGT3613 - FIB5031            |                       | defined          |
-| date              | Date of sampling                                                                                   | date              | 2023-12-16                   | yyyy-mm-dd            | recorded         |
-| aspect            | Aspect of the sites, which is either west facing, or east facing.                                  | categorical       | east - west                  |                       | recorded         |
-| site_id           | Sampling sites                                                                                     | categorical       | 1 - 5                        |                       | defined          |
-| elevation_m_asl   | Elevation of site                                                                                  | numeric           | 2000 - 2800                  | m a.s.l.              | recorded         |
-| plot_id           | Unique ID within each site and aspect                                                              | categorical       | 1-5                          |                       | defined          |
-| variable          | Soil texture and nutrient variables including total C, total N, total P, CEC, pH, clay, sand, silt | categorical       | tc_perc - silt_perc          | \-                    | defined          |
-| value             | Values for soil texture and nutrients.                                                             | numeric           | 0.16 - 290                   | %, mg kg-1, cmol kg-1 | measured         |
+|  |  |  |  |  |  |
+|----|----|----|----|----|----|
+| **Variable name** | **Description** | **Variable type** | **Variable range or levels** | **Units** | **How measured** |
+| id | Unique soil collection ID consisting of 3 letters and 4 numbers | character | FGT3613 - FIB5031 |  | defined |
+| variable | Soil texture and nutrient variables including total C (%), total N (%), total P (mg kg-1), CEC (cmol kg-1), pH, clay (%), sand (%), silt (%) | character | tc - silt | \- | defined |
+| value | Values for soil texture and nutrients.  | numeric | 0.16 - 290 | %, mg kg-1, cmol kg-1 | measured |
+| unit | Unit for values | character | \% - mg kg-1 |  | defined |
