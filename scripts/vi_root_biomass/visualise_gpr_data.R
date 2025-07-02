@@ -17,7 +17,7 @@ gpr_clean <- read_csv('vi_root_biomass/vi_PFTC7_clean_gpr_transect_root_biomass_
 ### 2. Format and glimpse data ----
 # keep only detections with corresponding root biomass data
 gpr <- gpr_clean %>%
-  filter(!is.na(root_to_soil_ratio))
+  pivot_wider(names_from = 'variable', values_from = 'value')
 
 glimpse(gpr)
 hist(log(gpr$root_to_soil_ratio))

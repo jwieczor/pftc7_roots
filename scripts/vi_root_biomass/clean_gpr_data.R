@@ -1,4 +1,5 @@
 ### Clean raw soil GPR plot, transect and root biomass data
+# modified 01/07/2025 by Joe
 
 ### 1. Set up ----
 library(tidyverse)
@@ -47,7 +48,8 @@ clean_plots <- plots %>%
            type == 'MARKER' ~ 'marker'
          )) %>%
   dplyr::select(date, elevation_m_asl, site_id, aspect, scan_file = new_name, type:pixel_count) %>%
-  mutate(across(depth:pixel_count, ~gsub('-', NA, .)))
+  mutate(across(depth:pixel_count, ~gsub('-', NA, .))) %>%
+  pivot_longer(cols = amplitude:pixel_count, names_to = 'variable')
 
 ### save clean plot data
 write_csv(clean_plots, 'vi_root_biomass/vi_PFTC7_clean_gpr_plot_2023.csv')
@@ -95,7 +97,10 @@ clean_transects <- transects %>%
 # join root biomass data on to gpr transects 
 joined_transects <- clean_transects %>%
   left_join(root_biomass, by = c('site_id', 'transect', 'position')) %>%
-  rename(sample_depth = sample_depth_cm, soil_depth = soil_depth_cm, dry_root_mass = dry_root_mass_g, stone_mass = stone_mass_g, dry_soil_mass = dry_soil_mass_g)
+  dplyr::select(date:depth, sample_no, amplitude, pixel_count, sample_depth = sample_depth_cm, soil_depth = soil_depth_cm, dry_root_mass = dry_root_mass_g, stone_mass = stone_mass_g, dry_soil_mass = dry_soil_mass_g, root_to_soil_ratio, root_to_soil_and_stone_ratio) %>%
+  # rename(sample_depth = sample_depth_cm, soil_depth = soil_depth_cm, dry_root_mass = dry_root_mass_g, stone_mass = stone_mass_g, dry_soil_mass = dry_soil_mass_g) %>%
+  drop_na() %>%
+  pivot_longer(cols = amplitude:root_to_soil_and_stone_ratio, names_to = 'variable')
 
 ### save clean transect and root biomass data
 write_csv(joined_transects, 'vi_root_biomass/vi_PFTC7_clean_gpr_transect_root_biomass_2023.csv')

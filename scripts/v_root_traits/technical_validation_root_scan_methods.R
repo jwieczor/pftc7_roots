@@ -7,12 +7,48 @@ library(tidyverse)
 library(rcompanion)
 
 ### 2. Load data ----
-#### load in root data
-all_scan_methods <- read_csv('v_root_traits/v_PFCT7_clean_scan_methods_comparison_2023.csv')
-head(all_scan_methods)
+#### load in root data, pivot wider, select root mass measurements
+roots_select <- read_csv('v_root_traits/v_PFCT7_clean_root_traits_2023.csv') %>%
+  dplyr::select(id, traits, value) %>%
+  pivot_wider(names_from = 'traits', values_from = 'value') %>%
+  dplyr::select(id, root_dry_mass, root_wet_mass)
+
+### load in scans
+raw_scans <- read_csv('raw_data/v_raw_root_traits/PFTC7_SA_raw_scans_2023.csv')
+gimp_scans <- read_csv('raw_data/v_raw_root_traits/PFTC7_SA_raw_gimp_scans_2023.csv')
+rootpainter_scans <- read_csv('raw_data/v_raw_root_traits/PFTC7_SA_raw_rootpainter_scans_2023.csv')
+
+# select id and key root scan metrics
+# raw
+raw_scans_select <- raw_scans %>%
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
+
+# gimp
+gimp_scans_select <- gimp_scans %>%
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
+
+# rootpainter
+rootpainter_scans_select <- rootpainter_scans %>%
+  dplyr::select(id = File.Name, total_root_length = Total.Root.Length.mm, total_root_volume = Volume.mm3, rd = Average.Diameter.mm, bi = Branching.frequency.per.mm)
+
+# combine root scans together
+all_scans <- bind_rows(raw_scans_select, gimp_scans_select, rootpainter_scans_select, .id = 'source') %>%
+  mutate(source = case_when(
+    source == 1 ~ 'raw',
+    source == 2 ~ 'gimp',
+    source == 3 ~ 'rootpainter'
+  ))
+
+# join together with key root trait metrics and calculate derived traits (SRL, RTD, RDMC)
+methods_comparison <- all_scans %>%
+  left_join(roots_select, by = 'id') %>% 
+  mutate(srl = (total_root_length*0.001)/root_dry_mass,
+         rtd = root_dry_mass/(total_root_volume*0.001),
+         rdmc = (root_dry_mass*1000)/root_wet_mass) %>%
+  dplyr::select(source:bi, srl:rdmc)
 
 #### select key scan traits that are direct measurements from the root scans in RhizoVision
-focal_scan_traits <- all_scan_methods %>% 
+focal_scan_traits <- methods_comparison %>% 
   dplyr::select("source", 'id', "total_root_length", "total_root_volume", "bi", "rd")
 
 #### summary of all methods by key scan traits
