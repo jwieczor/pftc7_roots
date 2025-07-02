@@ -52,7 +52,7 @@ derived_roots <- roots_joined  %>%
   sp = case_when(
     sp == 'EC' ~ 'Eragrostis capensis',
     sp == 'HF' ~ 'Harpochloa falx',
-    sp == 'HPA' ~ 'Helichrysum pallidum',
+    sp == 'HPA' ~ 'Helichrysum pilosellum',
     sp == 'SG' ~ 'Senecio glaberrimus',
     sp == 'TT' ~ 'Themeda triandra'
   ))

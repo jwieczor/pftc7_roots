@@ -149,56 +149,56 @@ FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,ldmc,0.138224318440966
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,bgb_agb,2.0240963855421685,g g-1
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,aboveground_biomass,1.66,g
 FBH8238,12/08/2023,northwest,5,2800,5,Senecio glaberrimus,belowground_biomass,3.36,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,root_depth,23,cm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,no_root_scan,5,count
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,root_wet_mass,0.0316,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,root_dry_mass,0.01032,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,total_root_length,1384.162003,cm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,total_root_volume,67.859183,mm3
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,rd,0.235311,mm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,bi,0.43492,count mm-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,srl,134.12422509689924,m g-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,rtd,0.15207963821197198,g cm-3
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,rdmc,326.58227848101257,mg g-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,tuber_wet_mass,0.9371,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,tuber_dry_mass,0.17859,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,reproductive_height,21.1,cm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,veg_height,2.5,cm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,no_leaves,1,NA
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,leaf_wet_mass,0.6762,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,leaf_dry_mass,0.13551,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,leaf_area,12.243,cm2
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,sla,90.3475758246624,cm2 g-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,leaf_thickness,0.7853333333333333,mm
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,ldmc,0.20039929015084293,g g-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,bgb_agb,5.230769230769231,g g-1
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,aboveground_biomass,0.78,g
-FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pallidum,belowground_biomass,4.08,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,root_depth,13,cm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,no_root_scan,5,count
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,root_wet_mass,0.035,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,root_dry_mass,0.01374,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,total_root_length,919.170419,cm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,total_root_volume,81.370931,mm3
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,rd,0.297983,mm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,bi,0.478693,count mm-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,srl,66.89741040756914,m g-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,rtd,0.16885636960452133,g cm-3
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,rdmc,392.57142857142856,mg g-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,tuber_wet_mass,0.707,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,tuber_dry_mass,0.1356,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,reproductive_height,19.8,cm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,veg_height,3.5,cm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,no_leaves,1,NA
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,leaf_wet_mass,0.4948,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,leaf_dry_mass,0.09943,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,leaf_area,8.924,cm2
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,sla,89.7515840289651,cm2 g-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,leaf_thickness,0.7633333333333333,mm
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,ldmc,0.2009498787388844,g g-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,bgb_agb,3.707964601769912,g g-1
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,aboveground_biomass,1.13,g
-FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pallidum,belowground_biomass,4.19,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,root_depth,23,cm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,no_root_scan,5,count
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,root_wet_mass,0.0316,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,root_dry_mass,0.01032,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,total_root_length,1384.162003,cm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,total_root_volume,67.859183,mm3
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,rd,0.235311,mm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,bi,0.43492,count mm-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,srl,134.12422509689924,m g-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,rtd,0.15207963821197198,g cm-3
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,rdmc,326.58227848101257,mg g-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,tuber_wet_mass,0.9371,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,tuber_dry_mass,0.17859,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,reproductive_height,21.1,cm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,veg_height,2.5,cm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,no_leaves,1,NA
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,leaf_wet_mass,0.6762,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,leaf_dry_mass,0.13551,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,leaf_area,12.243,cm2
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,sla,90.3475758246624,cm2 g-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,leaf_thickness,0.7853333333333333,mm
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,ldmc,0.20039929015084293,g g-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,bgb_agb,5.230769230769231,g g-1
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,aboveground_biomass,0.78,g
+FBI0246,12/08/2023,northwest,5,2800,2,Helichrysum pilosellum,belowground_biomass,4.08,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,root_depth,13,cm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,no_root_scan,5,count
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,root_wet_mass,0.035,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,root_dry_mass,0.01374,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,total_root_length,919.170419,cm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,total_root_volume,81.370931,mm3
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,rd,0.297983,mm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,bi,0.478693,count mm-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,srl,66.89741040756914,m g-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,rtd,0.16885636960452133,g cm-3
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,rdmc,392.57142857142856,mg g-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,tuber_wet_mass,0.707,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,tuber_dry_mass,0.1356,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,reproductive_height,19.8,cm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,veg_height,3.5,cm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,no_leaves,1,NA
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,leaf_wet_mass,0.4948,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,leaf_dry_mass,0.09943,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,leaf_area,8.924,cm2
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,sla,89.7515840289651,cm2 g-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,leaf_thickness,0.7633333333333333,mm
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,ldmc,0.2009498787388844,g g-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,bgb_agb,3.707964601769912,g g-1
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,aboveground_biomass,1.13,g
+FBJ6221,12/08/2023,northwest,5,2800,4,Helichrysum pilosellum,belowground_biomass,4.19,g
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,root_depth,16.6,cm
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,no_root_scan,5,count
 FBK1070,12/05/2023,west,2,2200,3,Themeda triandra,root_wet_mass,0.0643,g
@@ -249,31 +249,31 @@ FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,ldmc,0.145574069252798
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,bgb_agb,1.4776119402985073,g g-1
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,aboveground_biomass,1.34,g
 FBM2759,12/08/2023,northwest,5,2800,4,Senecio glaberrimus,belowground_biomass,1.98,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,root_depth,10,cm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,no_root_scan,4,count
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,root_wet_mass,0.0248,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,root_dry_mass,0.00545,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,total_root_length,614.712528,cm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,total_root_volume,28.462369,mm3
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,rd,0.231434,mm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,bi,0.382293,count mm-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,srl,112.7912895412844,m g-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,rtd,0.19148089886685118,g cm-3
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,rdmc,219.75806451612905,mg g-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,tuber_wet_mass,0.6443,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,tuber_dry_mass,0.12552,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,reproductive_height,7.8,cm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,veg_height,4.1,cm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,no_leaves,1,NA
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,leaf_wet_mass,0.7515,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,leaf_dry_mass,0.13365,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,leaf_area,12.928,cm2
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,sla,96.73026561915452,cm2 g-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,leaf_thickness,0.7833333333333333,mm
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,ldmc,0.17784431137724552,g g-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,bgb_agb,2.393939393939394,g g-1
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,aboveground_biomass,0.66,g
-FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pallidum,belowground_biomass,1.58,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,root_depth,10,cm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,no_root_scan,4,count
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,root_wet_mass,0.0248,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,root_dry_mass,0.00545,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,total_root_length,614.712528,cm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,total_root_volume,28.462369,mm3
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,rd,0.231434,mm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,bi,0.382293,count mm-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,srl,112.7912895412844,m g-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,rtd,0.19148089886685118,g cm-3
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,rdmc,219.75806451612905,mg g-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,tuber_wet_mass,0.6443,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,tuber_dry_mass,0.12552,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,reproductive_height,7.8,cm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,veg_height,4.1,cm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,no_leaves,1,NA
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,leaf_wet_mass,0.7515,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,leaf_dry_mass,0.13365,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,leaf_area,12.928,cm2
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,sla,96.73026561915452,cm2 g-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,leaf_thickness,0.7833333333333333,mm
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,ldmc,0.17784431137724552,g g-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,bgb_agb,2.393939393939394,g g-1
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,aboveground_biomass,0.66,g
+FBN8285,12/08/2023,northwest,5,2800,5,Helichrysum pilosellum,belowground_biomass,1.58,g
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,root_depth,18.2,cm
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,no_root_scan,5,count
 FBO8536,12/05/2023,west,2,2200,4,Themeda triandra,root_wet_mass,0.07,g
@@ -324,56 +324,56 @@ FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,ldmc,0.153602811950790
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,bgb_agb,1.207142857142857,g g-1
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,aboveground_biomass,1.4,g
 FBP4231,12/08/2023,northwest,5,2800,2,Senecio glaberrimus,belowground_biomass,1.69,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,root_depth,14.5,cm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,no_root_scan,5,count
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,root_wet_mass,0.0389,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,root_dry_mass,0.00958,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,total_root_length,384.71799,cm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,total_root_volume,33.111257,mm3
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,rd,0.29752,mm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,bi,0.15076,count mm-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,srl,40.158454070981215,m g-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,rtd,0.2893275842714156,g cm-3
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,rdmc,246.2724935732648,mg g-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,tuber_wet_mass,0.5246,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,tuber_dry_mass,0.07859,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,reproductive_height,18.3,cm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,veg_height,5,cm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,no_leaves,1,NA
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,leaf_wet_mass,0.7915,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,leaf_dry_mass,0.14951,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,leaf_area,15.614,cm2
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,sla,104.43448598755937,cm2 g-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,leaf_thickness,1.1053333333333333,mm
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,ldmc,0.18889450410612763,g g-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,bgb_agb,0.6612903225806451,g g-1
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,aboveground_biomass,0.62,g
-FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pallidum,belowground_biomass,0.41,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,root_depth,16,cm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,no_root_scan,5,count
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,root_wet_mass,0.0576,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,root_dry_mass,0.01929,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,total_root_length,1161.205461,cm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,total_root_volume,82.343575,mm3
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,rd,0.272041,mm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,bi,0.476229,count mm-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,srl,60.1972763608087,m g-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,rtd,0.23426235744561735,g cm-3
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,rdmc,334.89583333333337,mg g-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,tuber_wet_mass,0.644,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,tuber_dry_mass,0.10746,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,reproductive_height,9.5,cm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,veg_height,4,cm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,no_leaves,1,NA
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,leaf_wet_mass,1.0151,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,leaf_dry_mass,0.14336,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,leaf_area,16.376,cm2
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,sla,114.22991071428574,cm2 g-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,leaf_thickness,0.6306666666666667,mm
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,ldmc,0.1412274652743572,g g-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,bgb_agb,2.396694214876033,g g-1
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,aboveground_biomass,1.21,g
-FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pallidum,belowground_biomass,2.9,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,root_depth,14.5,cm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,no_root_scan,5,count
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,root_wet_mass,0.0389,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,root_dry_mass,0.00958,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,total_root_length,384.71799,cm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,total_root_volume,33.111257,mm3
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,rd,0.29752,mm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,bi,0.15076,count mm-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,srl,40.158454070981215,m g-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,rtd,0.2893275842714156,g cm-3
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,rdmc,246.2724935732648,mg g-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,tuber_wet_mass,0.5246,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,tuber_dry_mass,0.07859,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,reproductive_height,18.3,cm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,veg_height,5,cm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,no_leaves,1,NA
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,leaf_wet_mass,0.7915,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,leaf_dry_mass,0.14951,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,leaf_area,15.614,cm2
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,sla,104.43448598755937,cm2 g-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,leaf_thickness,1.1053333333333333,mm
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,ldmc,0.18889450410612763,g g-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,bgb_agb,0.6612903225806451,g g-1
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,aboveground_biomass,0.62,g
+FBQ2034,12/08/2023,northwest,5,2800,3,Helichrysum pilosellum,belowground_biomass,0.41,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,root_depth,16,cm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,no_root_scan,5,count
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,root_wet_mass,0.0576,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,root_dry_mass,0.01929,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,total_root_length,1161.205461,cm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,total_root_volume,82.343575,mm3
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,rd,0.272041,mm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,bi,0.476229,count mm-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,srl,60.1972763608087,m g-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,rtd,0.23426235744561735,g cm-3
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,rdmc,334.89583333333337,mg g-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,tuber_wet_mass,0.644,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,tuber_dry_mass,0.10746,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,reproductive_height,9.5,cm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,veg_height,4,cm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,no_leaves,1,NA
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,leaf_wet_mass,1.0151,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,leaf_dry_mass,0.14336,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,leaf_area,16.376,cm2
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,sla,114.22991071428574,cm2 g-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,leaf_thickness,0.6306666666666667,mm
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,ldmc,0.1412274652743572,g g-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,bgb_agb,2.396694214876033,g g-1
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,aboveground_biomass,1.21,g
+FBR3362,12/08/2023,northwest,5,2800,1,Helichrysum pilosellum,belowground_biomass,2.9,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,root_depth,13.5,cm
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,no_root_scan,4,count
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,root_wet_mass,0.0329,g
@@ -399,31 +399,31 @@ FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,ldmc,0.3692602040816327,g g-1
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,bgb_agb,1.7656951019524119,g g-1
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,aboveground_biomass,6.4638,g
 FBS3237,12/05/2023,west,2,2200,1,Themeda triandra,belowground_biomass,11.4131,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,root_depth,10.2,cm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,no_root_scan,5,count
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,root_wet_mass,0.0466,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,root_dry_mass,0.0162,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,total_root_length,1115.271125,cm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,total_root_volume,82.701692,mm3
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,rd,0.275913,mm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,bi,0.393626,count mm-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,srl,68.84389660493828,m g-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,rtd,0.1958847468320237,g cm-3
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,rdmc,347.63948497854074,mg g-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,tuber_wet_mass,0.4185,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,tuber_dry_mass,0.1136,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,reproductive_height,22.5,cm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,veg_height,11.5,cm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,no_leaves,1,NA
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,leaf_wet_mass,1.1152,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,leaf_dry_mass,0.2338,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,leaf_area,20.71,cm2
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,sla,88.57998289136013,cm2 g-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,leaf_thickness,1.0553333333333332,mm
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,ldmc,0.20964849354375897,g g-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,bgb_agb,1.862539605166951,g g-1
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,aboveground_biomass,5.3339,g
-FBT2327,12/06/2023,west,2,2200,1,Helichrysum pallidum,belowground_biomass,9.9346,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,root_depth,10.2,cm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,no_root_scan,5,count
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,root_wet_mass,0.0466,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,root_dry_mass,0.0162,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,total_root_length,1115.271125,cm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,total_root_volume,82.701692,mm3
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,rd,0.275913,mm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,bi,0.393626,count mm-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,srl,68.84389660493828,m g-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,rtd,0.1958847468320237,g cm-3
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,rdmc,347.63948497854074,mg g-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,tuber_wet_mass,0.4185,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,tuber_dry_mass,0.1136,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,reproductive_height,22.5,cm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,veg_height,11.5,cm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,no_leaves,1,NA
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,leaf_wet_mass,1.1152,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,leaf_dry_mass,0.2338,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,leaf_area,20.71,cm2
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,sla,88.57998289136013,cm2 g-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,leaf_thickness,1.0553333333333332,mm
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,ldmc,0.20964849354375897,g g-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,bgb_agb,1.862539605166951,g g-1
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,aboveground_biomass,5.3339,g
+FBT2327,12/06/2023,west,2,2200,1,Helichrysum pilosellum,belowground_biomass,9.9346,g
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,root_depth,16.5,cm
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,no_root_scan,4,count
 FBU8395,12/08/2023,west,4,2600,2,Senecio glaberrimus,root_wet_mass,0.0355,g
@@ -474,31 +474,31 @@ FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,ldmc,0.3560899922420482,g g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,bgb_agb,2.490024060707015,g g-1
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,aboveground_biomass,2.7015,g
 FBW8179,12/05/2023,west,2,2200,2,Eragrostis capensis,belowground_biomass,6.7268,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,root_depth,16.5,cm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,no_root_scan,5,count
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,root_wet_mass,0.043,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,root_dry_mass,0.0146,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,total_root_length,921.50696,cm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,total_root_volume,56.746535,mm3
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,rd,0.262245,mm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,bi,0.317957,count mm-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,srl,63.11691506849316,m g-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,rtd,0.2572844315516357,g cm-3
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,rdmc,339.5348837209302,mg g-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,tuber_wet_mass,1.1321,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,tuber_dry_mass,0.239,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,reproductive_height,19,cm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,veg_height,15.5,cm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,no_leaves,1,NA
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,leaf_wet_mass,1.2497,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,leaf_dry_mass,0.2566,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,leaf_area,24.814,cm2
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,sla,96.70303975058457,cm2 g-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,leaf_thickness,1.1413333333333333,mm
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,ldmc,0.20532927902696646,g g-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,bgb_agb,2.3042793151679324,g g-1
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,aboveground_biomass,5.6481,g
-FBX4690,12/06/2023,west,2,2200,2,Helichrysum pallidum,belowground_biomass,13.0148,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,root_depth,16.5,cm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,no_root_scan,5,count
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,root_wet_mass,0.043,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,root_dry_mass,0.0146,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,total_root_length,921.50696,cm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,total_root_volume,56.746535,mm3
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,rd,0.262245,mm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,bi,0.317957,count mm-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,srl,63.11691506849316,m g-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,rtd,0.2572844315516357,g cm-3
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,rdmc,339.5348837209302,mg g-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,tuber_wet_mass,1.1321,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,tuber_dry_mass,0.239,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,reproductive_height,19,cm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,veg_height,15.5,cm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,no_leaves,1,NA
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,leaf_wet_mass,1.2497,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,leaf_dry_mass,0.2566,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,leaf_area,24.814,cm2
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,sla,96.70303975058457,cm2 g-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,leaf_thickness,1.1413333333333333,mm
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,ldmc,0.20532927902696646,g g-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,bgb_agb,2.3042793151679324,g g-1
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,aboveground_biomass,5.6481,g
+FBX4690,12/06/2023,west,2,2200,2,Helichrysum pilosellum,belowground_biomass,13.0148,g
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,root_depth,16,cm
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,no_root_scan,5,count
 FBY9580,12/08/2023,west,4,2600,4,Senecio glaberrimus,root_wet_mass,0.0611,g
@@ -599,31 +599,31 @@ FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,ldmc,0.18389330597589124,g 
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,bgb_agb,1.1786582749249033,g g-1
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,aboveground_biomass,0.6991,g
 FCB1397,12/06/2023,west,2,2200,2,Senecio glaberrimus,belowground_biomass,0.824,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,root_depth,10.2,cm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,no_root_scan,5,count
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,root_wet_mass,0.0427,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,root_dry_mass,0.01229,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,total_root_length,1189.366707,cm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,total_root_volume,84.341871,mm3
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,rd,0.277355,mm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,bi,0.350607,count mm-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,srl,96.77515923515053,m g-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,rtd,0.14571647337536536,g cm-3
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,rdmc,287.8220140515223,mg g-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,tuber_wet_mass,0.5294,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,tuber_dry_mass,0.9028,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,reproductive_height,25.3,cm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,veg_height,3.8,cm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,no_leaves,1,NA
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,leaf_wet_mass,0.5966,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,leaf_dry_mass,0.1105,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,leaf_area,10.28,cm2
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,sla,93.03167420814479,cm2 g-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,leaf_thickness,0.9446666666666667,mm
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,ldmc,0.1852162252765672,g g-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,bgb_agb,2.575,g g-1
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,aboveground_biomass,1.2,g
-FCC1836,12/08/2023,west,4,2600,5,Helichrysum pallidum,belowground_biomass,3.09,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,root_depth,10.2,cm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,no_root_scan,5,count
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,root_wet_mass,0.0427,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,root_dry_mass,0.01229,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,total_root_length,1189.366707,cm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,total_root_volume,84.341871,mm3
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,rd,0.277355,mm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,bi,0.350607,count mm-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,srl,96.77515923515053,m g-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,rtd,0.14571647337536536,g cm-3
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,rdmc,287.8220140515223,mg g-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,tuber_wet_mass,0.5294,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,tuber_dry_mass,0.9028,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,reproductive_height,25.3,cm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,veg_height,3.8,cm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,no_leaves,1,NA
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,leaf_wet_mass,0.5966,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,leaf_dry_mass,0.1105,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,leaf_area,10.28,cm2
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,sla,93.03167420814479,cm2 g-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,leaf_thickness,0.9446666666666667,mm
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,ldmc,0.1852162252765672,g g-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,bgb_agb,2.575,g g-1
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,aboveground_biomass,1.2,g
+FCC1836,12/08/2023,west,4,2600,5,Helichrysum pilosellum,belowground_biomass,3.09,g
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,root_depth,15.4,cm
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,no_root_scan,5,count
 FCD2673,12/08/2023,west,4,2600,3,Senecio glaberrimus,root_wet_mass,0.0245,g
@@ -799,31 +799,31 @@ FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,ldmc,0.1977974828375286,g g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,bgb_agb,1.16893649579189,g g-1
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,aboveground_biomass,0.6535,g
 FCJ1591,12/06/2023,west,2,2200,3,Senecio glaberrimus,belowground_biomass,0.7639,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,root_depth,8,cm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,no_root_scan,5,count
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,root_wet_mass,0.0135,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,root_dry_mass,0.00865,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,total_root_length,544.592527,cm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,total_root_volume,36.687523,mm3
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,rd,0.277841,mm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,bi,0.325014,count mm-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,srl,62.9586736416185,m g-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,rtd,0.2357749799570824,g cm-3
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,rdmc,640.7407407407408,mg g-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,tuber_wet_mass,0.2652,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,tuber_dry_mass,0.05608,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,reproductive_height,21.5,cm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,veg_height,5.3,cm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,no_leaves,1,NA
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,leaf_wet_mass,0.4502,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,leaf_dry_mass,0.09691,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,leaf_area,8.338,cm2
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,sla,86.03859250851305,cm2 g-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,leaf_thickness,0.9056666666666666,mm
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,ldmc,0.21525988449577965,g g-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,bgb_agb,2.74468085106383,g g-1
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,aboveground_biomass,0.94,g
-FCK8784,12/08/2023,west,4,2600,1,Helichrysum pallidum,belowground_biomass,2.58,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,root_depth,8,cm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,no_root_scan,5,count
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,root_wet_mass,0.0135,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,root_dry_mass,0.00865,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,total_root_length,544.592527,cm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,total_root_volume,36.687523,mm3
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,rd,0.277841,mm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,bi,0.325014,count mm-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,srl,62.9586736416185,m g-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,rtd,0.2357749799570824,g cm-3
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,rdmc,640.7407407407408,mg g-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,tuber_wet_mass,0.2652,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,tuber_dry_mass,0.05608,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,reproductive_height,21.5,cm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,veg_height,5.3,cm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,no_leaves,1,NA
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,leaf_wet_mass,0.4502,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,leaf_dry_mass,0.09691,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,leaf_area,8.338,cm2
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,sla,86.03859250851305,cm2 g-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,leaf_thickness,0.9056666666666666,mm
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,ldmc,0.21525988449577965,g g-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,bgb_agb,2.74468085106383,g g-1
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,aboveground_biomass,0.94,g
+FCK8784,12/08/2023,west,4,2600,1,Helichrysum pilosellum,belowground_biomass,2.58,g
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,root_depth,15.5,cm
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,no_root_scan,5,count
 FCL0130,12/08/2023,west,4,2600,5,Senecio glaberrimus,root_wet_mass,0.0345,g
@@ -899,31 +899,31 @@ FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,ldmc,0.18429733890477237,g 
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,bgb_agb,0.7282439082943225,g g-1
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,aboveground_biomass,0.8331,g
 FCN7125,12/06/2023,west,2,2200,4,Senecio glaberrimus,belowground_biomass,0.6067,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,root_depth,7,cm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,no_root_scan,3,count
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,root_wet_mass,0.0146,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,root_dry_mass,0.00493,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,total_root_length,490.106341,cm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,total_root_volume,27.432873,mm3
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,rd,0.255907,mm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,bi,0.248926,count mm-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,srl,99.4130509127789,m g-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,rtd,0.1797113995315037,g cm-3
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,rdmc,337.6712328767124,mg g-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,tuber_wet_mass,0.6765,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,tuber_dry_mass,0.1592,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,reproductive_height,21.2,cm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,veg_height,5.1,cm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,no_leaves,1,NA
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,leaf_wet_mass,0.7561,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,leaf_dry_mass,0.15403,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,leaf_area,14.178,cm2
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,sla,92.04700383042265,cm2 g-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,leaf_thickness,0.9536666666666667,mm
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,ldmc,0.20371643962438832,g g-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,bgb_agb,1.125,g g-1
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,aboveground_biomass,1.04,g
-FCO4501,12/08/2023,west,4,2600,3,Helichrysum pallidum,belowground_biomass,1.17,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,root_depth,7,cm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,no_root_scan,3,count
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,root_wet_mass,0.0146,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,root_dry_mass,0.00493,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,total_root_length,490.106341,cm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,total_root_volume,27.432873,mm3
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,rd,0.255907,mm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,bi,0.248926,count mm-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,srl,99.4130509127789,m g-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,rtd,0.1797113995315037,g cm-3
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,rdmc,337.6712328767124,mg g-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,tuber_wet_mass,0.6765,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,tuber_dry_mass,0.1592,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,reproductive_height,21.2,cm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,veg_height,5.1,cm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,no_leaves,1,NA
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,leaf_wet_mass,0.7561,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,leaf_dry_mass,0.15403,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,leaf_area,14.178,cm2
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,sla,92.04700383042265,cm2 g-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,leaf_thickness,0.9536666666666667,mm
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,ldmc,0.20371643962438832,g g-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,bgb_agb,1.125,g g-1
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,aboveground_biomass,1.04,g
+FCO4501,12/08/2023,west,4,2600,3,Helichrysum pilosellum,belowground_biomass,1.17,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,root_depth,14.8,cm
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,no_root_scan,5,count
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,root_wet_mass,0.0304,g
@@ -949,81 +949,81 @@ FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,ldmc,0.23855297157622737,g g-1
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,bgb_agb,4.285714285714286,g g-1
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,aboveground_biomass,1.75,g
 FCP0847,12/08/2023,west,4,2600,3,Themeda triandra,belowground_biomass,7.5,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,root_depth,9,cm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,no_root_scan,5,count
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,root_wet_mass,0.0997,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,root_dry_mass,0.0482,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,total_root_length,966.875065,cm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,total_root_volume,129.933781,mm3
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,rd,0.360265,mm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,bi,0.411635,count mm-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,srl,20.05964865145228,m g-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,rtd,0.3709581883097821,g cm-3
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,rdmc,483.4503510531595,mg g-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,tuber_wet_mass,0.7861,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,tuber_dry_mass,0.2234,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,reproductive_height,19.5,cm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,veg_height,7.5,cm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,no_leaves,1,NA
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,leaf_wet_mass,1.0034,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,leaf_dry_mass,0.2235,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,leaf_area,19.653,cm2
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,sla,87.932885906040255,cm2 g-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,leaf_thickness,1.232,mm
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,ldmc,0.2227426749053219,g g-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,bgb_agb,4.278687886688197,g g-1
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,aboveground_biomass,2.5699,g
-FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pallidum,belowground_biomass,10.9958,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,root_depth,9,cm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,no_root_scan,4,count
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,root_wet_mass,0.0088,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,root_dry_mass,0.0032,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,total_root_length,210.729988,cm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,total_root_volume,21.344409,mm3
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,rd,0.323119,mm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,bi,0.588431,count mm-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,srl,65.85312125,m g-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,rtd,0.14992216462868568,g cm-3
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,rdmc,363.6363636363636,mg g-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,tuber_wet_mass,0.8201,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,tuber_dry_mass,0.183,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,reproductive_height,9.1,cm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,veg_height,10,cm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,no_leaves,1,NA
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,leaf_wet_mass,1.5822,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,leaf_dry_mass,0.2741,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,leaf_area,24.207,cm2
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,sla,88.31448376504925,cm2 g-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,leaf_thickness,1.248,mm
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,ldmc,0.17323979269371761,g g-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,bgb_agb,2.1795174262734585,g g-1
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,aboveground_biomass,2.7975,g
-FCR0255,12/06/2023,west,2,2200,3,Helichrysum pallidum,belowground_biomass,6.0972,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,root_depth,9,cm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,no_root_scan,5,count
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,root_wet_mass,0.0277,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,root_dry_mass,0.01312,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,total_root_length,629.694274,cm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,total_root_volume,40.605331,mm3
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,rd,0.272705,mm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,bi,0.311262,count mm-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,srl,47.994990396341464,m g-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,rtd,0.3231102832285741,g cm-3
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,rdmc,473.64620938628155,mg g-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,tuber_wet_mass,0.6582,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,tuber_dry_mass,0.12652,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,reproductive_height,25.2,cm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,veg_height,6.4,cm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,no_leaves,1,NA
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,leaf_wet_mass,0.8883,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,leaf_dry_mass,0.13588,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,leaf_area,15.074,cm2
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,sla,110.93612010597586,cm2 g-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,leaf_thickness,0.7656666666666667,mm
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,ldmc,0.15296634020038274,g g-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,bgb_agb,2.5766871165644174,g g-1
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,aboveground_biomass,1.63,g
-FCS7407,12/08/2023,west,4,2600,4,Helichrysum pallidum,belowground_biomass,4.2,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,root_depth,9,cm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,no_root_scan,5,count
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,root_wet_mass,0.0997,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,root_dry_mass,0.0482,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,total_root_length,966.875065,cm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,total_root_volume,129.933781,mm3
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,rd,0.360265,mm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,bi,0.411635,count mm-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,srl,20.05964865145228,m g-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,rtd,0.3709581883097821,g cm-3
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,rdmc,483.4503510531595,mg g-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,tuber_wet_mass,0.7861,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,tuber_dry_mass,0.2234,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,reproductive_height,19.5,cm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,veg_height,7.5,cm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,no_leaves,1,NA
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,leaf_wet_mass,1.0034,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,leaf_dry_mass,0.2235,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,leaf_area,19.653,cm2
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,sla,87.932885906040255,cm2 g-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,leaf_thickness,1.232,mm
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,ldmc,0.2227426749053219,g g-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,bgb_agb,4.278687886688197,g g-1
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,aboveground_biomass,2.5699,g
+FCQ4012,12/06/2023,west,2,2200,5,Helichrysum pilosellum,belowground_biomass,10.9958,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,root_depth,9,cm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,no_root_scan,4,count
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,root_wet_mass,0.0088,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,root_dry_mass,0.0032,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,total_root_length,210.729988,cm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,total_root_volume,21.344409,mm3
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,rd,0.323119,mm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,bi,0.588431,count mm-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,srl,65.85312125,m g-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,rtd,0.14992216462868568,g cm-3
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,rdmc,363.6363636363636,mg g-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,tuber_wet_mass,0.8201,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,tuber_dry_mass,0.183,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,reproductive_height,9.1,cm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,veg_height,10,cm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,no_leaves,1,NA
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,leaf_wet_mass,1.5822,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,leaf_dry_mass,0.2741,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,leaf_area,24.207,cm2
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,sla,88.31448376504925,cm2 g-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,leaf_thickness,1.248,mm
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,ldmc,0.17323979269371761,g g-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,bgb_agb,2.1795174262734585,g g-1
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,aboveground_biomass,2.7975,g
+FCR0255,12/06/2023,west,2,2200,3,Helichrysum pilosellum,belowground_biomass,6.0972,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,root_depth,9,cm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,no_root_scan,5,count
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,root_wet_mass,0.0277,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,root_dry_mass,0.01312,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,total_root_length,629.694274,cm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,total_root_volume,40.605331,mm3
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,rd,0.272705,mm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,bi,0.311262,count mm-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,srl,47.994990396341464,m g-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,rtd,0.3231102832285741,g cm-3
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,rdmc,473.64620938628155,mg g-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,tuber_wet_mass,0.6582,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,tuber_dry_mass,0.12652,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,reproductive_height,25.2,cm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,veg_height,6.4,cm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,no_leaves,1,NA
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,leaf_wet_mass,0.8883,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,leaf_dry_mass,0.13588,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,leaf_area,15.074,cm2
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,sla,110.93612010597586,cm2 g-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,leaf_thickness,0.7656666666666667,mm
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,ldmc,0.15296634020038274,g g-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,bgb_agb,2.5766871165644174,g g-1
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,aboveground_biomass,1.63,g
+FCS7407,12/08/2023,west,4,2600,4,Helichrysum pilosellum,belowground_biomass,4.2,g
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,root_depth,18,cm
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,no_root_scan,4,count
 FCT4052,12/08/2023,west,4,2600,2,Themeda triandra,root_wet_mass,0.0481,g
@@ -1074,56 +1074,56 @@ FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,ldmc,0.21644942170001838,g 
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,bgb_agb,1.2214049282824568,g g-1
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,aboveground_biomass,0.5438,g
 FCU3875,12/06/2023,west,2,2200,5,Senecio glaberrimus,belowground_biomass,0.6642,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,root_depth,15,cm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,no_root_scan,5,count
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,root_wet_mass,0.0498,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,root_dry_mass,0.0185,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,total_root_length,1009.189064,cm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,total_root_volume,86.689275,mm3
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,rd,0.305654,mm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,bi,0.296277,count mm-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,srl,54.550760216216226,m g-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,rtd,0.21340586825763624,g cm-3
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,rdmc,371.4859437751004,mg g-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,tuber_wet_mass,0.5776,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,tuber_dry_mass,0.1581,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,reproductive_height,27.5,cm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,veg_height,7.5,cm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,no_leaves,1,NA
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,leaf_wet_mass,0.8705,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,leaf_dry_mass,0.1887,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,leaf_area,18.178,cm2
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,sla,96.33280339162692,cm2 g-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,leaf_thickness,1.0953333333333333,mm
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,ldmc,0.21677197013210797,g g-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,bgb_agb,2.7800142990705603,g g-1
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,aboveground_biomass,1.8183,g
-FCV8597,12/06/2023,west,2,2200,4,Helichrysum pallidum,belowground_biomass,5.0549,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,root_depth,9.8,cm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,no_root_scan,5,count
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,root_wet_mass,0.0501,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,root_dry_mass,0.01431,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,total_root_length,830.649605,cm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,total_root_volume,88.879016,mm3
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,rd,0.326452,mm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,bi,0.400891,count mm-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,srl,58.0467928022362,m g-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,rtd,0.16100538286787514,g cm-3
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,rdmc,285.6287425149701,mg g-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,tuber_wet_mass,0.7454,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,tuber_dry_mass,0.14541,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,reproductive_height,30.1,cm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,veg_height,6.5,cm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,no_leaves,1,NA
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,leaf_wet_mass,1.6296,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,leaf_dry_mass,0.19215,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,leaf_area,15.302,cm2
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,sla,79.63570127504553,cm2 g-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,leaf_thickness,0.8933333333333333,mm
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,ldmc,0.11791237113402062,g g-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,bgb_agb,3.133663366336634,g g-1
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,aboveground_biomass,2.02,g
-FCW1015,12/08/2023,west,4,2600,2,Helichrysum pallidum,belowground_biomass,6.33,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,root_depth,15,cm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,no_root_scan,5,count
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,root_wet_mass,0.0498,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,root_dry_mass,0.0185,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,total_root_length,1009.189064,cm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,total_root_volume,86.689275,mm3
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,rd,0.305654,mm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,bi,0.296277,count mm-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,srl,54.550760216216226,m g-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,rtd,0.21340586825763624,g cm-3
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,rdmc,371.4859437751004,mg g-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,tuber_wet_mass,0.5776,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,tuber_dry_mass,0.1581,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,reproductive_height,27.5,cm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,veg_height,7.5,cm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,no_leaves,1,NA
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,leaf_wet_mass,0.8705,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,leaf_dry_mass,0.1887,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,leaf_area,18.178,cm2
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,sla,96.33280339162692,cm2 g-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,leaf_thickness,1.0953333333333333,mm
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,ldmc,0.21677197013210797,g g-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,bgb_agb,2.7800142990705603,g g-1
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,aboveground_biomass,1.8183,g
+FCV8597,12/06/2023,west,2,2200,4,Helichrysum pilosellum,belowground_biomass,5.0549,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,root_depth,9.8,cm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,no_root_scan,5,count
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,root_wet_mass,0.0501,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,root_dry_mass,0.01431,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,total_root_length,830.649605,cm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,total_root_volume,88.879016,mm3
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,rd,0.326452,mm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,bi,0.400891,count mm-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,srl,58.0467928022362,m g-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,rtd,0.16100538286787514,g cm-3
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,rdmc,285.6287425149701,mg g-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,tuber_wet_mass,0.7454,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,tuber_dry_mass,0.14541,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,reproductive_height,30.1,cm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,veg_height,6.5,cm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,no_leaves,1,NA
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,leaf_wet_mass,1.6296,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,leaf_dry_mass,0.19215,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,leaf_area,15.302,cm2
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,sla,79.63570127504553,cm2 g-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,leaf_thickness,0.8933333333333333,mm
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,ldmc,0.11791237113402062,g g-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,bgb_agb,3.133663366336634,g g-1
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,aboveground_biomass,2.02,g
+FCW1015,12/08/2023,west,4,2600,2,Helichrysum pilosellum,belowground_biomass,6.33,g
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,root_depth,17,cm
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,no_root_scan,4,count
 FCX5914,12/08/2023,west,4,2600,1,Themeda triandra,root_wet_mass,0.0296,g
@@ -1299,31 +1299,31 @@ FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,ldmc,0.35937996820349766,g g-1
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,bgb_agb,6.484149855907781,g g-1
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,aboveground_biomass,3.47,g
 FDV4335,12/09/2023,west,3,2400,4,Themeda triandra,belowground_biomass,22.5,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,root_depth,8,cm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,no_root_scan,3,count
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,root_wet_mass,0.0172,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,root_dry_mass,0.00573,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,total_root_length,529.354592,cm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,total_root_volume,28.417527,mm3
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,rd,0.239963,mm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,bi,0.408044,count mm-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,srl,92.38300034904015,m g-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,rtd,0.20163612407230228,g cm-3
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,rdmc,333.1395348837209,mg g-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,tuber_wet_mass,0.2983,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,tuber_dry_mass,0.06399,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,reproductive_height,28.8,cm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,veg_height,5.3,cm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,no_leaves,1,NA
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,leaf_wet_mass,0.8981,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,leaf_dry_mass,0.17296,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,leaf_area,14.956,cm2
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,sla,86.47086031452359,cm2 g-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,leaf_thickness,0.8916666666666666,mm
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,ldmc,0.1925843447277586,g g-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,bgb_agb,2.7792207792207795,g g-1
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,aboveground_biomass,1.54,g
-FDY4037,12/09/2023,west,3,2400,5,Helichrysum pallidum,belowground_biomass,4.28,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,root_depth,8,cm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,no_root_scan,3,count
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,root_wet_mass,0.0172,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,root_dry_mass,0.00573,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,total_root_length,529.354592,cm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,total_root_volume,28.417527,mm3
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,rd,0.239963,mm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,bi,0.408044,count mm-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,srl,92.38300034904015,m g-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,rtd,0.20163612407230228,g cm-3
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,rdmc,333.1395348837209,mg g-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,tuber_wet_mass,0.2983,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,tuber_dry_mass,0.06399,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,reproductive_height,28.8,cm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,veg_height,5.3,cm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,no_leaves,1,NA
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,leaf_wet_mass,0.8981,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,leaf_dry_mass,0.17296,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,leaf_area,14.956,cm2
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,sla,86.47086031452359,cm2 g-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,leaf_thickness,0.8916666666666666,mm
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,ldmc,0.1925843447277586,g g-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,bgb_agb,2.7792207792207795,g g-1
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,aboveground_biomass,1.54,g
+FDY4037,12/09/2023,west,3,2400,5,Helichrysum pilosellum,belowground_biomass,4.28,g
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,root_depth,21.5,cm
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,no_root_scan,5,count
 FDZ1151,12/09/2023,west,3,2400,3,Themeda triandra,root_wet_mass,0.0314,g
@@ -1449,31 +1449,31 @@ FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,ldmc,0.3370940170940171,g g-1
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,bgb_agb,0.9372623574144486,g g-1
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,aboveground_biomass,5.26,g
 FEH0081,12/09/2023,west,3,2400,1,Themeda triandra,belowground_biomass,4.93,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,root_depth,10,cm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,no_root_scan,1,count
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,root_wet_mass,0.0053,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,root_dry_mass,0.0029,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,total_root_length,67.909679,cm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,total_root_volume,2.590919,mm3
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,rd,0.215222,mm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,bi,0.16198,count mm-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,srl,23.417130689655174,m g-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,rtd,1.119293964805538,g cm-3
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,rdmc,547.1698113207547,mg g-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,tuber_wet_mass,0.5651,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,tuber_dry_mass,0.11125,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,reproductive_height,32.4,cm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,veg_height,9,cm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,no_leaves,1,NA
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,leaf_wet_mass,0.9391,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,leaf_dry_mass,0.16845,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,leaf_area,17.014,cm2
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,sla,101.00326506381715,cm2 g-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,leaf_thickness,0.961,mm
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,ldmc,0.1793738685975934,g g-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,bgb_agb,1.1466666666666667,g g-1
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,aboveground_biomass,0.75,g
-FEK5954,12/09/2023,west,3,2400,2,Helichrysum pallidum,belowground_biomass,0.86,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,root_depth,10,cm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,no_root_scan,1,count
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,root_wet_mass,0.0053,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,root_dry_mass,0.0029,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,total_root_length,67.909679,cm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,total_root_volume,2.590919,mm3
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,rd,0.215222,mm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,bi,0.16198,count mm-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,srl,23.417130689655174,m g-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,rtd,1.119293964805538,g cm-3
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,rdmc,547.1698113207547,mg g-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,tuber_wet_mass,0.5651,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,tuber_dry_mass,0.11125,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,reproductive_height,32.4,cm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,veg_height,9,cm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,no_leaves,1,NA
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,leaf_wet_mass,0.9391,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,leaf_dry_mass,0.16845,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,leaf_area,17.014,cm2
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,sla,101.00326506381715,cm2 g-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,leaf_thickness,0.961,mm
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,ldmc,0.1793738685975934,g g-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,bgb_agb,1.1466666666666667,g g-1
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,aboveground_biomass,0.75,g
+FEK5954,12/09/2023,west,3,2400,2,Helichrysum pilosellum,belowground_biomass,0.86,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,root_depth,17.2,cm
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,no_root_scan,5,count
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,root_wet_mass,0.026,g
@@ -1499,31 +1499,31 @@ FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,ldmc,0.3132442960489705,g g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,bgb_agb,10.32520325203252,g g-1
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,aboveground_biomass,1.23,g
 FEL2208,12/08/2023,west,4,2600,3,Eragrostis capensis,belowground_biomass,12.7,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,root_depth,9,cm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,no_root_scan,3,count
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,root_wet_mass,0.0229,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,root_dry_mass,0.00867,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,total_root_length,556.002374,cm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,total_root_volume,35.802203,mm3
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,rd,0.263661,mm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,bi,0.438847,count mm-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,srl,64.12945490196078,m g-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,rtd,0.24216386907811235,g cm-3
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,rdmc,378.6026200873362,mg g-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,tuber_wet_mass,0.7407,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,tuber_dry_mass,0.13608,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,reproductive_height,13.5,cm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,veg_height,4.2,cm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,no_leaves,1,NA
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,leaf_wet_mass,0.8182,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,leaf_dry_mass,0.15648,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,leaf_area,14.659,cm2
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,sla,93.67970347648262,cm2 g-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,leaf_thickness,0.923,mm
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,ldmc,0.19124908335370325,g g-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,bgb_agb,1.2857142857142856,g g-1
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,aboveground_biomass,0.91,g
-FEO1874,12/09/2023,west,3,2400,1,Helichrysum pallidum,belowground_biomass,1.17,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,root_depth,9,cm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,no_root_scan,3,count
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,root_wet_mass,0.0229,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,root_dry_mass,0.00867,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,total_root_length,556.002374,cm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,total_root_volume,35.802203,mm3
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,rd,0.263661,mm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,bi,0.438847,count mm-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,srl,64.12945490196078,m g-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,rtd,0.24216386907811235,g cm-3
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,rdmc,378.6026200873362,mg g-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,tuber_wet_mass,0.7407,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,tuber_dry_mass,0.13608,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,reproductive_height,13.5,cm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,veg_height,4.2,cm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,no_leaves,1,NA
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,leaf_wet_mass,0.8182,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,leaf_dry_mass,0.15648,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,leaf_area,14.659,cm2
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,sla,93.67970347648262,cm2 g-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,leaf_thickness,0.923,mm
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,ldmc,0.19124908335370325,g g-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,bgb_agb,1.2857142857142856,g g-1
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,aboveground_biomass,0.91,g
+FEO1874,12/09/2023,west,3,2400,1,Helichrysum pilosellum,belowground_biomass,1.17,g
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,root_depth,21.2,cm
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,no_root_scan,5,count
 FEP9413,12/08/2023,west,4,2600,4,Themeda triandra,root_wet_mass,0.024,g
@@ -1599,31 +1599,31 @@ FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,ldmc,0.3258008153756552,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,bgb_agb,5.7861445783132535,g g-1
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,aboveground_biomass,3.32,g
 FET3274,12/08/2023,northwest,5,2800,5,Themeda triandra,belowground_biomass,19.21,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,root_depth,8,cm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,no_root_scan,3,count
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,root_wet_mass,0.0293,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,root_dry_mass,0.01072,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,total_root_length,347.932337,cm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,total_root_volume,32.740988,mm3
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,rd,0.30989,mm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,bi,0.22993,count mm-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,srl,32.456374720149256,m g-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,rtd,0.3274183418044684,g cm-3
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,rdmc,365.8703071672355,mg g-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,tuber_wet_mass,0.5238,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,tuber_dry_mass,0.09544,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,reproductive_height,33.5,cm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,veg_height,6.9,cm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,no_leaves,1,NA
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,leaf_wet_mass,0.4367,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,leaf_dry_mass,0.08267,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,leaf_area,9.015,cm2
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,sla,109.04802225716706,cm2 g-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,leaf_thickness,0.7936666666666666,mm
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,ldmc,0.18930615983512708,g g-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,bgb_agb,1.8124999999999998,g g-1
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,aboveground_biomass,0.8,g
-FEU2975,12/09/2023,west,3,2400,3,Helichrysum pallidum,belowground_biomass,1.45,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,root_depth,8,cm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,no_root_scan,3,count
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,root_wet_mass,0.0293,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,root_dry_mass,0.01072,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,total_root_length,347.932337,cm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,total_root_volume,32.740988,mm3
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,rd,0.30989,mm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,bi,0.22993,count mm-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,srl,32.456374720149256,m g-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,rtd,0.3274183418044684,g cm-3
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,rdmc,365.8703071672355,mg g-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,tuber_wet_mass,0.5238,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,tuber_dry_mass,0.09544,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,reproductive_height,33.5,cm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,veg_height,6.9,cm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,no_leaves,1,NA
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,leaf_wet_mass,0.4367,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,leaf_dry_mass,0.08267,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,leaf_area,9.015,cm2
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,sla,109.04802225716706,cm2 g-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,leaf_thickness,0.7936666666666666,mm
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,ldmc,0.18930615983512708,g g-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,bgb_agb,1.8124999999999998,g g-1
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,aboveground_biomass,0.8,g
+FEU2975,12/09/2023,west,3,2400,3,Helichrysum pilosellum,belowground_biomass,1.45,g
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,root_depth,20,cm
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,no_root_scan,5,count
 FEV1588,12/08/2023,west,4,2600,2,Harpochloa falx,root_wet_mass,0.0223,g
@@ -2099,31 +2099,31 @@ FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,ldmc,0.32645290581162323,g 
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,bgb_agb,17.678571428571427,g g-1
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,aboveground_biomass,0.28,g
 FGB1616,12/09/2023,west,3,2400,5,Eragrostis capensis,belowground_biomass,4.95,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,root_depth,9.5,cm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,no_root_scan,5,count
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,root_wet_mass,0.0375,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,root_dry_mass,0.01344,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,total_root_length,994.078895,cm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,total_root_volume,71.329736,mm3
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,rd,0.272763,mm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,bi,0.501972,count mm-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,srl,73.9642034970238,m g-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,rtd,0.18842071699241955,g cm-3
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,rdmc,358.40000000000003,mg g-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,tuber_wet_mass,0.789,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,tuber_dry_mass,0.12903,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,reproductive_height,30.4,cm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,veg_height,4.7,cm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,no_leaves,1,NA
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,leaf_wet_mass,0.6843,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,leaf_dry_mass,0.12099,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,leaf_area,11.784,cm2
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,sla,97.3964790478552,cm2 g-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,leaf_thickness,0.864,mm
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,ldmc,0.17680841736080666,g g-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,bgb_agb,7.443181818181818,g g-1
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,aboveground_biomass,0.88,g
-FGC0245,12/09/2023,west,3,2400,4,Helichrysum pallidum,belowground_biomass,6.55,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,root_depth,9.5,cm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,no_root_scan,5,count
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,root_wet_mass,0.0375,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,root_dry_mass,0.01344,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,total_root_length,994.078895,cm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,total_root_volume,71.329736,mm3
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,rd,0.272763,mm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,bi,0.501972,count mm-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,srl,73.9642034970238,m g-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,rtd,0.18842071699241955,g cm-3
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,rdmc,358.40000000000003,mg g-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,tuber_wet_mass,0.789,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,tuber_dry_mass,0.12903,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,reproductive_height,30.4,cm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,veg_height,4.7,cm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,no_leaves,1,NA
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,leaf_wet_mass,0.6843,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,leaf_dry_mass,0.12099,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,leaf_area,11.784,cm2
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,sla,97.3964790478552,cm2 g-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,leaf_thickness,0.864,mm
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,ldmc,0.17680841736080666,g g-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,bgb_agb,7.443181818181818,g g-1
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,aboveground_biomass,0.88,g
+FGC0245,12/09/2023,west,3,2400,4,Helichrysum pilosellum,belowground_biomass,6.55,g
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,root_depth,14,cm
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,no_root_scan,5,count
 FGE4515,12/09/2023,west,3,2400,1,Eragrostis capensis,root_wet_mass,0.0427,g
