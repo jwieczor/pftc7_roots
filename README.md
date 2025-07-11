@@ -27,7 +27,7 @@ Each of the clean datasets has a corresponding data dictionary to provide inform
 | value | Values for full plant traits | numeric | 0.0016 - 2471.00 | cm, count, g, mm3, mm, count mm-1, mg-1, gcm-3, mgg-1, cm2, cm2g-1, gg-1 | measured |
 | unit | Unit for trait values | character | cm - gg-1 |  | defined |
 
-**Table 2. Data dictionary for the root biomass mapping using GPR and the soil sample transects.**
+**Table 2. Data dictionary for the root biomass validation transects.**
 
 |  |  |  |  |  |  |
 |----|----|----|----|----|----|
@@ -47,7 +47,7 @@ Each of the clean datasets has a corresponding data dictionary to provide inform
 | root_to_soil_ratio | Root dry mass/soil dry mass | numeric | 0.004437996-0.289247537 | g g-1 | derived |
 | root_to_soil_and_rock_ratio | Root dry mass/(soil dry mass + rock dry mass) | numeric | 0.00124283-0.173527944 | g g-1 | derived |
 
-**Table 3. Data dictionary for the root biomass mapping using GPR of the vegetation plots.**
+**Table 3. Data dictionary for the ground-penetrating radar measurements.**
 
 |  |  |  |  |  |  |
 |----|----|----|----|----|----|

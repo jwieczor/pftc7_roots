@@ -59,7 +59,7 @@ clean_plots <- plots %>%
   ))
 
 ### save clean plot data
-write_csv(clean_plots, 'vi_root_biomass/vi_PFTC7_clean_gpr_plot_2023.csv')
+write_csv(clean_plots, 'vi_root_biomass/vi-b_PFTC7_clean_ground_penetrating_radar_mapping_2023.csv')
 
 ### 3. Format raw and save clean TRANSECT and ROOT BIOMASS data ----
 ### load in root biomass data
@@ -119,4 +119,4 @@ joined_transects <- clean_transects %>%
     variable == 'root_to_soil_and_stone_ratio' ~ 'g g-1'))
 
 ### save clean transect and root biomass data
-write_csv(joined_transects, 'vi_root_biomass/vi_PFTC7_clean_gpr_transect_root_biomass_2023.csv')
+write_csv(joined_transects, 'vi_root_biomass/vi-a_PFTC7_clean_root_biomass_validation_2023.csv')
